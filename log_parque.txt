@@ -1,0 +1,1818 @@
+2026-04-20 16:49:40 | INFO     | motor                | Tick: Día 27 Hora 10:00
+2026-04-20 16:49:45 | INFO     | atracciones          | Reparación: Cerebro Transitable por $3,000.00
+2026-04-20 16:49:49 | INFO     | atracciones          | Reparación: Biomas Vivientes por $3,000.00
+2026-04-20 16:49:50 | INFO     | atracciones          | Reparación: Capsula Sueno Lucido por $8,500.00
+2026-04-20 16:49:51 | INFO     | atracciones          | Reparación: La Montana Reaccion por $15,000.00
+2026-04-20 16:49:53 | INFO     | atracciones          | Reparación: Planetario Digital por $42.50
+2026-04-20 16:49:54 | INFO     | atracciones          | Reparación: ROVs Programables por $6,000.00
+2026-04-20 16:49:56 | INFO     | atracciones          | Reparación: Sala del Rayo por $3,000.00
+2026-04-20 16:49:57 | INFO     | atracciones          | Reparación: Simulador Sismico por $4,500.00
+2026-04-20 16:49:59 | INFO     | atracciones          | Reparación: Simulador de Piloto por $42.50
+2026-04-20 16:50:00 | INFO     | atracciones          | Reparación: Submarino Profundo por $8,500.00
+2026-04-20 16:50:01 | INFO     | atracciones          | Reparación: Test Lab por $6,000.00
+2026-04-20 16:50:02 | INFO     | atracciones          | Reparación: Viaje al Centro por $4,500.00
+2026-04-20 16:50:06 | INFO     | motor                | Tick: Día 27 Hora 11:00
+2026-04-20 16:50:07 | INFO     | motor                | Tick: Día 27 Hora 12:00
+2026-04-20 16:50:07 | INFO     | motor                | Tick: Día 27 Hora 13:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 14:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 15:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 16:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 17:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 18:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 19:00
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 20:00
+2026-04-20 16:50:08 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:08 | INFO     | motor                | Tick: Día 27 Hora 21:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 27 Hora 22:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 27 Hora 23:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 28 Hora 00:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 28 Hora 01:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 28 Hora 02:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 28 Hora 03:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 28 Hora 04:00
+2026-04-20 16:50:09 | INFO     | motor                | Tick: Día 28 Hora 05:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 06:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 07:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 08:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 09:00
+2026-04-20 16:50:10 | WARNING  | motor                | Evento Aleatorio: Inclementas
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 10:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 11:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 12:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 13:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 14:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 15:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 16:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 17:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 18:00
+2026-04-20 16:50:10 | INFO     | motor                | Tick: Día 28 Hora 19:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 28 Hora 20:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 28 Hora 21:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 28 Hora 22:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 28 Hora 23:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 00:00
+2026-04-20 16:50:11 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 01:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 02:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 03:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 04:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 05:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 06:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 07:00
+2026-04-20 16:50:11 | INFO     | motor                | Tick: Día 29 Hora 08:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 09:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 10:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 11:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 12:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 13:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 14:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 15:00
+2026-04-20 16:50:12 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 16:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 17:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 18:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 19:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 20:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 21:00
+2026-04-20 16:50:12 | INFO     | motor                | Tick: Día 29 Hora 22:00
+2026-04-20 16:50:13 | INFO     | motor                | Tick: Día 29 Hora 23:00
+2026-04-20 16:50:13 | WARNING  | motor                | Avería mecánica: Viaje al Centro
+2026-04-20 16:50:15 | WARNING  | motor                | Avería mecánica: Simulador Sismico
+2026-04-20 16:50:16 | WARNING  | motor                | Avería mecánica: La Montana Reaccion
+2026-04-20 16:50:18 | INFO     | motor                | Tick: Día 30 Hora 00:00
+2026-04-20 16:50:18 | INFO     | motor                | Tick: Día 30 Hora 01:00
+2026-04-20 16:50:18 | INFO     | motor                | Tick: Día 30 Hora 02:00
+2026-04-20 16:50:18 | INFO     | motor                | Tick: Día 30 Hora 03:00
+2026-04-20 16:50:18 | WARNING  | motor                | Evento Aleatorio: Viral
+2026-04-20 16:50:18 | INFO     | motor                | Tick: Día 30 Hora 04:00
+2026-04-20 16:50:19 | INFO     | motor                | Tick: Día 30 Hora 05:00
+2026-04-20 16:50:19 | INFO     | motor                | Tick: Día 30 Hora 06:00
+2026-04-20 16:50:19 | INFO     | motor                | Tick: Día 30 Hora 07:00
+2026-04-20 16:50:19 | WARNING  | motor                | Evento Aleatorio: Avería Grave
+2026-04-20 16:50:19 | INFO     | motor                | Tick: Día 30 Hora 08:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 09:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 10:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 11:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 12:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 13:00
+2026-04-20 16:50:20 | WARNING  | motor                | Evento Aleatorio: Inclementas
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 14:00
+2026-04-20 16:50:20 | WARNING  | motor                | Evento Aleatorio: Inclementas
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 15:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 16:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 17:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 18:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 19:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 20:00
+2026-04-20 16:50:20 | INFO     | motor                | Tick: Día 30 Hora 21:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 30 Hora 22:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 30 Hora 23:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 00:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 01:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 02:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 03:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 04:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 05:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 06:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 07:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 08:00
+2026-04-20 16:50:21 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 09:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 10:00
+2026-04-20 16:50:21 | INFO     | motor                | Tick: Día 31 Hora 11:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 12:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 13:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 14:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 15:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 16:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 17:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 18:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 19:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 20:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 21:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 22:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 31 Hora 23:00
+2026-04-20 16:50:22 | INFO     | motor                | Tick: Día 32 Hora 00:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 01:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 02:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 03:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 04:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 05:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 06:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 07:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 08:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 09:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 10:00
+2026-04-20 16:50:23 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 11:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 12:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 13:00
+2026-04-20 16:50:23 | INFO     | motor                | Tick: Día 32 Hora 14:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 15:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 16:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 17:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 18:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 19:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 20:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 21:00
+2026-04-20 16:50:24 | WARNING  | motor                | Evento Aleatorio: Inclementas
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 22:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 32 Hora 23:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 33 Hora 00:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 33 Hora 01:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 33 Hora 02:00
+2026-04-20 16:50:24 | INFO     | motor                | Tick: Día 33 Hora 03:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 04:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 05:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 06:00
+2026-04-20 16:50:25 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 07:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 08:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 09:00
+2026-04-20 16:50:25 | WARNING  | motor                | Evento Aleatorio: Avería Grave
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 10:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 11:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 12:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 13:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 14:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 15:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 16:00
+2026-04-20 16:50:25 | INFO     | motor                | Tick: Día 33 Hora 17:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 33 Hora 18:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 33 Hora 19:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 33 Hora 20:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 33 Hora 21:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 33 Hora 22:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 33 Hora 23:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 00:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 01:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 02:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 03:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 04:00
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 05:00
+2026-04-20 16:50:26 | WARNING  | motor                | Evento Aleatorio: Fallo Leve
+2026-04-20 16:50:26 | INFO     | motor                | Tick: Día 34 Hora 06:00
+2026-04-20 16:50:27 | INFO     | motor                | Tick: Día 34 Hora 07:00
+2026-04-20 16:50:27 | INFO     | motor                | Tick: Día 34 Hora 08:00
+2026-04-20 16:50:27 | INFO     | motor                | Tick: Día 34 Hora 09:00
+2026-04-20 16:50:27 | INFO     | motor                | Tick: Día 34 Hora 10:00
+2026-04-20 16:50:27 | INFO     | motor                | Tick: Día 34 Hora 11:00
+2026-04-20 16:53:43 | INFO     | motor                | Tick ejecutado: Día 34 Hora 12
+2026-04-20 16:53:43 | INFO     | motor                | Tick ejecutado: Día 34 Hora 13
+2026-04-20 16:53:44 | INFO     | motor                | Tick ejecutado: Día 34 Hora 14
+2026-04-20 16:53:45 | INFO     | motor                | Tick ejecutado: Día 34 Hora 15
+2026-04-20 16:53:45 | WARNING  | motor                | ¡AVEROA! Lanzadera Estelar ha quedado fuera de servicio.
+2026-04-20 16:53:47 | INFO     | motor                | Tick ejecutado: Día 34 Hora 16
+2026-04-20 16:53:48 | INFO     | motor                | Tick ejecutado: Día 34 Hora 17
+2026-04-20 16:53:48 | WARNING  | motor                | ¡AVEROA! Planetario Digital ha quedado fuera de servicio.
+2026-04-20 16:53:50 | INFO     | motor                | Tick ejecutado: Día 34 Hora 18
+2026-04-20 16:53:50 | WARNING  | motor                | ¡EVENTO! Viral
+2026-04-20 16:53:50 | INFO     | motor                | Tick ejecutado: Día 34 Hora 19
+2026-04-20 16:53:50 | INFO     | motor                | Tick ejecutado: Día 34 Hora 20
+2026-04-20 16:53:51 | INFO     | motor                | Tick ejecutado: Día 34 Hora 21
+2026-04-20 16:53:51 | WARNING  | motor                | ¡EVENTO! Fallo Leve
+2026-04-20 16:54:35 | INFO     | atracciones          | Reparación manual: Tunel del Big Bang por $8100.00
+2026-04-20 16:54:42 | INFO     | motor                | Tick ejecutado: Día 34 Hora 22
+2026-04-20 16:54:48 | INFO     | atracciones          | Reparación manual: Lanzadera Estelar por $14324.85
+2026-04-20 16:54:50 | INFO     | motor                | Tick ejecutado: Día 34 Hora 23
+2026-04-20 16:54:52 | INFO     | atracciones          | Reparación manual: Lanzadera Estelar por $75.00
+2026-04-20 16:54:52 | INFO     | motor                | Tick ejecutado: Día 35 Hora 0
+2026-04-20 16:54:53 | INFO     | atracciones          | Reparación manual: Lanzadera Estelar por $75.00
+2026-04-20 16:54:53 | INFO     | motor                | Tick ejecutado: Día 35 Hora 1
+2026-04-20 16:54:56 | INFO     | motor                | Tick ejecutado: Día 35 Hora 2
+2026-04-20 16:54:56 | INFO     | motor                | Tick ejecutado: Día 35 Hora 3
+2026-04-20 16:54:57 | INFO     | motor                | Tick ejecutado: Día 35 Hora 4
+2026-04-20 16:54:57 | INFO     | motor                | Tick ejecutado: Día 35 Hora 5
+2026-04-20 16:54:57 | INFO     | motor                | Tick ejecutado: Día 35 Hora 6
+2026-04-20 16:54:58 | INFO     | motor                | Tick ejecutado: Día 35 Hora 7
+2026-04-20 16:54:58 | INFO     | motor                | Tick ejecutado: Día 35 Hora 8
+2026-04-20 16:54:59 | INFO     | motor                | Tick ejecutado: Día 35 Hora 9
+2026-04-20 16:54:59 | WARNING  | motor                | ¡AVEROA! Simulador de Piloto ha quedado fuera de servicio.
+2026-04-20 16:55:01 | WARNING  | motor                | ¡AVEROA! Capsula Sueno Lucido ha quedado fuera de servicio.
+2026-04-20 16:55:04 | INFO     | atracciones          | Reparación manual: Tunel de Viento por $15000.00
+2026-04-20 16:55:05 | INFO     | motor                | Tick ejecutado: Día 35 Hora 10
+2026-04-20 16:55:06 | INFO     | motor                | Tick ejecutado: Día 35 Hora 11
+2026-04-20 16:55:06 | INFO     | motor                | Tick ejecutado: Día 35 Hora 12
+2026-04-20 16:55:06 | INFO     | motor                | Tick ejecutado: Día 35 Hora 13
+2026-04-20 16:55:06 | INFO     | motor                | Tick ejecutado: Día 35 Hora 14
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 15
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 16
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 17
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 18
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 19
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 20
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 21
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 22
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 35 Hora 23
+2026-04-20 16:55:07 | INFO     | motor                | Tick ejecutado: Día 36 Hora 0
+2026-04-20 16:55:07 | WARNING  | motor                | ¡EVENTO! Avería Grave
+2026-04-20 16:55:07 | WARNING  | motor                | ¡EVENTO! Accidente
+2026-04-20 17:03:58 | INFO     | atracciones          | Reparación manual: Lanzadera Estelar por $1800.00
+2026-04-20 17:04:00 | INFO     | motor                | Tick ejecutado: Día 36 Hora 1
+2026-04-20 17:08:19 | INFO     | atracciones          | Reparación: Lanzadera Estelar
+2026-04-20 17:08:22 | INFO     | atracciones          | Reparación: Simulador Sismico
+2026-04-20 17:08:25 | INFO     | atracciones          | Reparación: Sala del Rayo
+2026-04-20 17:11:37 | INFO     | motor                | Tick completado. Ingresos: +$12734.02. Visitantes: 527
+2026-04-20 17:12:11 | INFO     | motor                | Tick completado. Ingresos: +$11279.06. Visitantes: 638
+2026-04-20 17:12:12 | INFO     | motor                | Tick completado. Ingresos: +$8132.53. Visitantes: 518
+2026-04-20 17:12:12 | INFO     | motor                | Tick completado. Ingresos: +$11602.76. Visitantes: 572
+2026-04-20 17:12:14 | INFO     | motor                | Tick completado. Ingresos: +$12977.01. Visitantes: 733
+2026-04-20 17:12:17 | INFO     | motor                | Tick completado. Ingresos: +$6307.73. Visitantes: 402
+2026-04-20 17:12:18 | INFO     | motor                | Tick completado. Ingresos: +$5213.80. Visitantes: 255
+2026-04-20 17:12:19 | INFO     | motor                | Tick completado. Ingresos: +$7148.83. Visitantes: 350
+2026-04-20 17:12:19 | INFO     | motor                | Tick completado. Ingresos: +$9288.24. Visitantes: 419
+2026-04-20 17:12:19 | INFO     | motor                | Tick completado. Ingresos: +$2998.57. Visitantes: 172
+2026-04-20 17:12:19 | INFO     | motor                | Tick completado. Ingresos: +$9878.55. Visitantes: 455
+2026-04-20 17:12:20 | INFO     | motor                | Tick completado. Ingresos: +$7737.57. Visitantes: 311
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$3995.61. Visitantes: 184
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$5721.30. Visitantes: 284
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$15632.25. Visitantes: 773
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$5435.18. Visitantes: 241
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$8668.42. Visitantes: 460
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$14798.32. Visitantes: 766
+2026-04-20 17:12:21 | INFO     | motor                | Tick completado. Ingresos: +$11241.22. Visitantes: 501
+2026-04-20 17:12:21 | INFO     | motor                | NÓMINAS PAGADAS: -$5,916.10
+2026-04-20 17:12:23 | INFO     | motor                | Tick completado. Ingresos: +$12079.27. Visitantes: 555
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$8774.71. Visitantes: 581
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$12741.71. Visitantes: 572
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$9442.53. Visitantes: 622
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$2889.98. Visitantes: 171
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$2899.14. Visitantes: 177
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$15645.38. Visitantes: 713
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$11242.68. Visitantes: 461
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$5157.03. Visitantes: 333
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$3618.99. Visitantes: 190
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$11672.08. Visitantes: 483
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$12295.44. Visitantes: 691
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$6803.16. Visitantes: 438
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$13639.39. Visitantes: 674
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$2748.82. Visitantes: 162
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$5066.75. Visitantes: 301
+2026-04-20 17:12:24 | INFO     | motor                | Tick completado. Ingresos: +$14296.11. Visitantes: 699
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$4968.96. Visitantes: 234
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$3289.28. Visitantes: 191
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$8259.85. Visitantes: 342
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$13144.77. Visitantes: 538
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$6099.44. Visitantes: 374
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$7290.23. Visitantes: 383
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$9843.88. Visitantes: 415
+2026-04-20 17:12:25 | INFO     | motor                | NÓMINAS PAGADAS: -$5,916.10
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$12353.35. Visitantes: 777
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$3864.22. Visitantes: 192
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$8081.00. Visitantes: 513
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$4905.14. Visitantes: 269
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$11318.71. Visitantes: 492
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$11721.60. Visitantes: 616
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$4949.44. Visitantes: 308
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$11011.64. Visitantes: 655
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$11267.61. Visitantes: 705
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$11292.23. Visitantes: 648
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$17629.34. Visitantes: 782
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$3954.33. Visitantes: 165
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$14479.63. Visitantes: 750
+2026-04-20 17:12:25 | INFO     | motor                | Tick completado. Ingresos: +$4102.01. Visitantes: 220
+2026-04-20 17:26:46 | INFO     | main_window          | Iniciando componentes de la MainWindow...
+2026-04-20 17:31:34 | ERROR    | main_window          | Error al sincronizar UI con base de datos: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:31:34 | INFO     | main_window          | MainWindow inicializada y sincronizada con el motor.
+2026-04-20 17:31:39 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:31:41 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:31:46 | INFO     | main_window          | Navegación: Cambio a vista índice 3
+2026-04-20 17:31:49 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:32:04 | INFO     | main_window          | Navegación: Cambio a vista índice 3
+2026-04-20 17:32:18 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:18 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:19 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:19 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:20 | INFO     | main_window          | Navegación: Cambio a vista índice 0
+2026-04-20 17:32:21 | INFO     | main_window          | Navegación: Cambio a vista índice 0
+2026-04-20 17:32:23 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:24 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:24 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:25 | INFO     | main_window          | Navegación: Cambio a vista índice 1
+2026-04-20 17:32:25 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:32:26 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:32:26 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:32:26 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:32:27 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:32:28 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:28 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:28 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:32:29 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:32:30 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:32:31 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-20 17:33:30 | ERROR    | main_window          | Error al sincronizar UI con base de datos: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:33:30 | INFO     | main_window          | MainWindow inicializada y sincronizada con el motor.
+2026-04-20 17:33:38 | INFO     | main_window          | Navegación: Cambio a vista índice 2
+2026-04-20 17:33:42 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:33:43 | INFO     | main_window          | Acción de usuario: Tick manual ejecutado (Espacio).
+2026-04-20 17:33:43 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:33:46 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:33:46 | INFO     | main_window          | Navegación: Cambio a vista índice 5
+2026-04-20 17:33:47 | INFO     | main_window          | Navegación: Cambio a vista índice 4
+2026-04-20 17:33:49 | INFO     | main_window          | Navegación: Cambio a vista índice 3
+2026-04-20 17:33:53 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-20 17:37:41 | INFO     | db                   | Seed: Inventario inicial creado.
+2026-04-20 17:41:48 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado...
+2026-04-20 17:45:35 | INFO     | main_window          | MainWindow inicializada correctamente con arquitectura QHBoxLayout.
+2026-04-20 17:45:39 | INFO     | main_window          | Navegación: Cambiando a vista 0.
+2026-04-20 17:45:40 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-20 17:45:44 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-20 17:46:06 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-20 17:46:24 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-20 17:46:26 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-20 17:46:28 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado...
+2026-04-20 17:53:46 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:02 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:05 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:05 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:05 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:05 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:06 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:07 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:07 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:08 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:54:15 | INFO     | main_window          | Cierre de aplicación.
+2026-04-20 17:54:58 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:55:10 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 17:55:10 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:55:10 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:55:18 | INFO     | main_window          | Cierre de aplicación.
+2026-04-20 17:56:02 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:56:09 | INFO     | inventario           | Logística: Compra de 150 uds de Comida Espacial por $750.00
+2026-04-20 17:56:09 | INFO     | logistica            | Suministros: Recibidas 150 uds de Comida Espacial.
+2026-04-20 17:56:23 | INFO     | inventario           | Logística: Compra de 119 uds de Newton Peluche por $1,190.00
+2026-04-20 17:56:23 | INFO     | logistica            | Suministros: Recibidas 119 uds de Newton Peluche.
+2026-04-20 17:56:26 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:56:26 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 17:56:35 | INFO     | main_window          | Cierre de aplicación.
+2026-04-20 18:25:57 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:14 | INFO     | inventario           | Logística: Compra de 50 uds de Newton Peluche por $500.00
+2026-04-20 18:26:14 | INFO     | logistica            | Suministros: Recibidas 50 uds de Newton Peluche.
+2026-04-20 18:26:18 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:18 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:20 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:21 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-20 18:26:23 | INFO     | main_window          | Cierre de aplicación.
+2026-04-21 12:39:56 | ERROR    | main_window          | Error UI: 'AtraccionModel' object has no attribute 'visitantes_en_cola'
+2026-04-21 12:40:03 | INFO     | main_window          | Cierre de aplicación.
+2026-04-21 12:44:10 | INFO     | db                   | Seed: Registro de parque inicial creado.
+2026-04-21 12:44:10 | INFO     | db                   | Seed: 8 secciones científicas inicializadas.
+2026-04-21 12:44:10 | INFO     | db                   | Seed: Productos de inventario inicializados.

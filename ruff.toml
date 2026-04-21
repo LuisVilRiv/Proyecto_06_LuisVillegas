@@ -1,0 +1,3 @@
+# Configuración de Ruff para ScienceWorld Park
+target-version = "py311"
+line-length = 100
