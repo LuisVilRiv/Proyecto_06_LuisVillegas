@@ -1,6 +1,11 @@
 """
 ScienceWorld Park — models/db.py
-Conexión SQLite + creación de tablas + seed inicial.
+Conexión SQLite + creación de tablas + seed inicial + seeds de modos de juego.
+
+Correcciones aplicadas (v3.0):
+ - B.2b: timeout=30 en SqliteDatabase
+ - G.1/G.2: seed_modo_campana(dificultad) y seed_modo_extremo() añadidas.
+             Se llaman desde LoginWindow antes de MotorSimulacion().cargar_partida().
 """
 
 import os
@@ -10,16 +15,15 @@ from core.logger import log
 
 
 def get_db_path() -> str:
-    """Ruta portable del .db, compatible con PyInstaller frozen."""
     if getattr(sys, "frozen", False):
         base = os.path.dirname(sys.executable)
     else:
-        # Durante desarrollo: raíz del proyecto (un nivel sobre /models)
         base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     return os.path.join(base, "scienceworld.db")
 
 
-db = SqliteDatabase(None)  # Se inicializa en init_db()
+# B.2b: timeout=30 — evita OperationalError 'database is locked' en acceso concurrente
+db = SqliteDatabase(None, timeout=30)
 
 
 class BaseModel(Model):
@@ -29,63 +33,51 @@ class BaseModel(Model):
 
 # ────────────────────────────────────────────────────────────────────────────
 def init_db() -> None:
-    """Inicializa la BD, crea tablas y ejecuta el seed si la BD es nueva."""
-    from models.parque import ParqueModel
-    from models.secciones import SeccionModel
+    from models.parque      import ParqueModel
+    from models.secciones   import SeccionModel
     from models.atracciones import AtraccionModel
-    from models.empleados import EmpleadoModel
-    from models.inventario import InventarioModel
-    from models.usuarios import UsuarioModel, PartidaModel
+    from models.empleados   import EmpleadoModel
+    from models.inventario  import InventarioModel
+    from models.usuarios    import UsuarioModel, PartidaModel
     from models.eventos_log import EventoLogModel
-    from models.tickets import TicketModel
-    from models.finanzas import MovimientoFinanciero
+    from models.tickets     import TicketModel
+    from models.finanzas    import MovimientoFinanciero
 
     db.init(get_db_path())
     db.connect(reuse_if_open=True)
     db.pragma("journal_mode", "wal")
     db.pragma("foreign_keys", 1)
 
-    # Orden respetuoso con las FKs
     db.create_tables(
         [
-            SeccionModel,
-            ParqueModel,
-            AtraccionModel,
-            EmpleadoModel,
-            InventarioModel,
-            UsuarioModel,
-            PartidaModel,
-            EventoLogModel,
-            TicketModel,
-            MovimientoFinanciero,
+            SeccionModel, ParqueModel, AtraccionModel, EmpleadoModel,
+            InventarioModel, UsuarioModel, PartidaModel, EventoLogModel,
+            TicketModel, MovimientoFinanciero,
         ],
         safe=True,
     )
 
-    _seed(SeccionModel, AtraccionModel, InventarioModel)
+    _seed()
 
 
 # ────────────────────────────────────────────────────────────────────────────
-def _seed(SeccionModel, AtraccionModel, InventarioModel) -> None:
+def _seed() -> None:
     """Pobla la BD con datos de referencia si está vacía."""
+    from models.secciones   import SeccionModel
+    from models.atracciones import AtraccionModel
+    from models.inventario  import InventarioModel
 
-    # Secciones (PDF §2)
     if SeccionModel.select().count() == 0:
         secciones = [
-            ("Astronomia",   "🔭"),
-            ("Aeronautica",  "✈️"),
-            ("Geologia",     "🪨"),
-            ("Biologia",     "🧬"),
-            ("Fisica",       "⚡"),
-            ("Quimica",      "⚗️"),
-            ("Oceanografia", "🌊"),
-            ("Neurociencia", "🧠"),
+            ("Astronomia",   "🔭"), ("Aeronautica",  "✈️"),
+            ("Geologia",     "🪨"), ("Biologia",     "🧬"),
+            ("Fisica",       "⚡"), ("Quimica",      "⚗️"),
+            ("Oceanografia", "🌊"), ("Neurociencia", "🧠"),
         ]
         for nombre, emoji in secciones:
             SeccionModel.create(nombre=nombre, emoji=emoji)
         log.info("Seed: 8 secciones científicas inicializadas.")
 
-    # Atracciones (PDF §3 + schema.sql)
     if AtraccionModel.select().count() == 0:
         atracciones = [
             ("Lanzadera Estelar",    "simulador",   1,   8, 12,  8.0),
@@ -111,7 +103,6 @@ def _seed(SeccionModel, AtraccionModel, InventarioModel) -> None:
             )
         log.info("Seed: 15 atracciones científicas inicializadas.")
 
-    # Inventario (ScienceFood + ScienceStore)
     if InventarioModel.select().count() == 0:
         productos = [
             ("Comida Espacial", "Comida",   200, 20, 500,  5.0),
@@ -126,3 +117,138 @@ def _seed(SeccionModel, AtraccionModel, InventarioModel) -> None:
                 stock_maximo=maximo, precio_compra=precio,
             )
         log.info("Seed: Productos de inventario inicializados.")
+
+
+# ── Sección G: Modos de juego ────────────────────────────────────────────────
+
+# G.1 — Configuración por dificultad (Modo Campaña)
+# Parámetros: dinero inicial, reputación, nº atracciones activas, nº empleados
+DIFICULTAD_CONFIG: dict[str, dict] = {
+    "facil": {
+        "dinero": 750_000, "reputacion": 50,
+        "atracciones": 5,  "empleados": 8,
+        "umbral_quiebra": 150_000,
+        "objetivo_rep": 80, "objetivo_dinero": 1_000_000,
+        "prob_eventos_negativo": 0.5,   # reducidos -50%
+    },
+    "normal": {
+        "dinero": 500_000, "reputacion": 35,
+        "atracciones": 3,  "empleados": 4,
+        "umbral_quiebra": 250_000,
+        "objetivo_rep": 85, "objetivo_dinero": 2_000_000,
+        "prob_eventos_negativo": 1.0,   # normales
+    },
+    "dificil": {
+        "dinero": 250_000, "reputacion": 20,
+        "atracciones": 1,  "empleados": 2,
+        "umbral_quiebra": 400_000,
+        "objetivo_rep": 90, "objetivo_dinero": 3_000_000,
+        "prob_eventos_negativo": 1.25,  # +25%
+    },
+    "pesadilla": {
+        "dinero": 100_000, "reputacion": 10,
+        "atracciones": 0,  "empleados": 0,
+        "umbral_quiebra": 550_000,
+        "objetivo_rep": 95, "objetivo_dinero": 5_000_000,
+        "prob_eventos_negativo": 1.5,   # +50%
+    },
+}
+
+
+def seed_modo_campana(parque_id: int, dificultad: str = "normal") -> None:
+    """
+    G.1: configura el parque para Modo Campaña con la dificultad indicada.
+    Llamar ANTES de MotorSimulacion().cargar_partida().
+    """
+    from models.parque      import ParqueModel
+    from models.atracciones import AtraccionModel
+    from models.empleados   import EmpleadoModel
+    from models.inventario  import InventarioModel
+
+    cfg = DIFICULTAD_CONFIG.get(dificultad, DIFICULTAD_CONFIG["normal"])
+
+    with db.atomic():
+        parque = ParqueModel.get_by_id(parque_id)
+        parque.dinero     = cfg["dinero"]
+        parque.reputacion = cfg["reputacion"]
+        parque.dia_actual  = 1
+        parque.hora_actual = 8
+        parque.save()
+
+        # Activar solo N atracciones según dificultad, desactivar el resto
+        for i, atr in enumerate(AtraccionModel.select()):
+            atr.activo          = (i < cfg["atracciones"])
+            atr.en_mantenimiento = False
+            atr.integridad      = 100.0
+            atr.save()
+
+        # Desactivar empleados sobrantes (si hay menos que el seed completo)
+        for i, emp in enumerate(EmpleadoModel.select()):
+            emp.activo = (i < cfg["empleados"])
+            emp.save()
+
+        # Stock inicial proporcional a la dificultad
+        stock_pct = {
+            "facil": 0.80, "normal": 0.50,
+            "dificil": 0.25, "pesadilla": 0.0,
+        }.get(dificultad, 0.50)
+
+        for inv in InventarioModel.select():
+            inv.stock_actual = round(inv.stock_maximo * stock_pct)
+            inv.save()
+
+    log.info(
+        f"Seed Modo Campaña [{dificultad.upper()}]: "
+        f"dinero={cfg['dinero']:,}€, rep={cfg['reputacion']}, "
+        f"atracciones={cfg['atracciones']}, empleados={cfg['empleados']}"
+    )
+
+
+def seed_modo_extremo(parque_id: int) -> None:
+    """
+    G.2: configura el parque para Modo Extremo (rescate en bancarrota).
+    Condiciones iniciales fijas según el PDF §G.2.
+    Llamar ANTES de MotorSimulacion().cargar_partida().
+    """
+    import random
+    from models.parque      import ParqueModel
+    from models.atracciones import AtraccionModel
+    from models.empleados   import EmpleadoModel
+    from models.inventario  import InventarioModel
+
+    with db.atomic():
+        parque = ParqueModel.get_by_id(parque_id)
+        parque.dinero     = -180_000   # saldo negativo desde el inicio
+        parque.reputacion = 8          # críticas devastadoras
+        parque.dia_actual  = 1
+        parque.hora_actual = 8
+        parque.save()
+
+        # 12 de 15 atracciones averiadas (integridad 5–30%), solo 3 operativas
+        atracciones = list(AtraccionModel.select())
+        for i, atr in enumerate(atracciones):
+            if i < 3:
+                # Las 3 más simples quedan operativas
+                atr.activo           = True
+                atr.en_mantenimiento = False
+                atr.integridad       = 100.0
+            else:
+                atr.activo           = True
+                atr.en_mantenimiento = True
+                atr.integridad       = random.uniform(5.0, 30.0)
+            atr.save()
+
+        # Solo 3 empleados activos, el resto desactivado
+        for i, emp in enumerate(EmpleadoModel.select()):
+            emp.activo = (i < 3)
+            emp.save()
+
+        # Inventario completamente vacío
+        for inv in InventarioModel.select():
+            inv.stock_actual = 0
+            inv.save()
+
+    log.info(
+        "Seed Modo Extremo: dinero=-180.000€, rep=8, "
+        "12/15 atracciones averiadas, stock=0"
+    )

@@ -1,6 +1,9 @@
 """
 ScienceWorld Park — gui/vistas/dashboard.py
 Dashboard principal: historial de eventos + resumen de estado del parque.
+
+Correcciones aplicadas (v3.0):
+ - E.2: refresh() ya no silencia excepciones — las loggea con traceback completo
 """
 
 from PySide6.QtWidgets import (
@@ -9,6 +12,7 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 from PySide6.QtGui  import QColor
+from core.logger import log
 
 
 # Colores por tipo de evento
@@ -150,11 +154,12 @@ class DashboardView(QWidget):
     # ── Refresco ─────────────────────────────────────────────────────────
 
     def refresh(self) -> None:
+        # E.2: ya no silenciamos excepciones — las loggeamos con traceback completo
         try:
             self._refrescar_estado()
             self._refrescar_eventos()
-        except Exception:
-            pass
+        except Exception as exc:
+            log.error(f"Dashboard refresh fallido: {exc}", exc_info=True)
 
     def _refrescar_estado(self) -> None:
         from models.parque      import ParqueModel
@@ -174,19 +179,16 @@ class DashboardView(QWidget):
         else:
             self._stat_int.set_value(0)
 
-        # Stock: porcentaje de productos por encima del mínimo
         items  = list(InventarioModel.select())
         ok     = sum(1 for i in items if i.stock_actual > i.stock_minimo)
         pct    = int((ok / len(items)) * 100) if items else 100
         self._stat_stock.set_value(pct, f"{ok}/{len(items)} OK")
 
-        # Personal
         total_emp  = EmpleadoModel.select().count()
         activos    = EmpleadoModel.select().where(EmpleadoModel.activo == True).count()
         pct_emp    = int((activos / total_emp) * 100) if total_emp else 0
         self._stat_emp.set_value(pct_emp, f"{activos} activos")
 
-        # Resumen económico
         self._lbl_eco_items["saldo"].setText(f"${parque.dinero:,.0f}")
         self._lbl_eco_items["saldo"].setStyleSheet(
             f"color: {'#10b981' if parque.dinero >= 0 else '#ef4444'};"

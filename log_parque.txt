@@ -1827,3 +1827,64 @@
 2026-04-21 13:23:30 | INFO     | main_window          | Navegación: Cambiando a vista 4.
 2026-04-21 13:23:31 | INFO     | main_window          | Navegación: Cambiando a vista 5.
 2026-04-21 13:23:36 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-22 14:10:55 | INFO     | db                   | Seed: 8 secciones científicas inicializadas.
+2026-04-22 14:10:55 | INFO     | db                   | Seed: 15 atracciones científicas inicializadas.
+2026-04-22 14:10:55 | INFO     | db                   | Seed: Productos de inventario inicializados.
+2026-04-23 08:10:21 | INFO     | db                   | Seed: 8 secciones científicas inicializadas.
+2026-04-23 08:10:21 | INFO     | db                   | Seed: 15 atracciones científicas inicializadas.
+2026-04-23 08:10:21 | INFO     | db                   | Seed: Productos de inventario inicializados.
+2026-04-23 08:11:05 | INFO     | motor                | Motor: Partida «partida1» cargada (Parque ID=1)
+2026-04-23 08:11:06 | INFO     | main_window          | Velocidad: estandar (60×)
+2026-04-23 08:11:06 | INFO     | main_window          | MainWindow inicializada correctamente.
+2026-04-23 08:11:10 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-23 08:11:12 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-23 08:11:13 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-23 08:11:14 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-23 08:11:17 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-23 08:11:22 | INFO     | main_window          | Velocidad: ligero (10×)
+2026-04-23 08:11:22 | INFO     | main_window          | Velocidad: obs (1×)
+2026-04-23 08:11:26 | INFO     | motor                | Tick completado. Ingresos: +$1,051.60. Día 1 Hora 09
+2026-04-23 08:11:27 | INFO     | motor                | Tick completado. Ingresos: +$1,785.30. Día 1 Hora 10
+2026-04-23 08:11:27 | INFO     | motor                | Tick completado. Ingresos: +$1,997.60. Día 1 Hora 11
+2026-04-23 08:11:28 | INFO     | motor                | Tick completado. Ingresos: +$1,354.10. Día 1 Hora 12
+2026-04-23 08:11:28 | INFO     | motor                | Tick completado. Ingresos: +$2,263.80. Día 1 Hora 13
+2026-04-23 08:11:28 | INFO     | motor                | Tick completado. Ingresos: +$1,489.40. Día 1 Hora 14
+2026-04-23 08:11:29 | INFO     | motor                | Tick completado. Ingresos: +$2,061.40. Día 1 Hora 15
+2026-04-23 08:11:30 | INFO     | main_window          | Velocidad: ligero (10×)
+2026-04-23 08:11:30 | INFO     | motor                | Tick completado. Ingresos: +$1,771.00. Día 1 Hora 16
+2026-04-23 08:11:31 | INFO     | motor                | Tick completado. Ingresos: +$1,815.00. Día 1 Hora 17
+2026-04-23 08:11:31 | INFO     | motor                | Tick completado. Ingresos: +$2,226.40. Día 1 Hora 18
+2026-04-23 08:11:32 | INFO     | motor                | Tick completado. Ingresos: +$1,620.30. Día 1 Hora 19
+2026-04-23 08:11:32 | INFO     | motor                | Tick completado. Ingresos: +$1,002.10. Día 1 Hora 20
+2026-04-23 08:11:33 | INFO     | main_window          | Velocidad: estandar (60×)
+2026-04-23 08:11:33 | INFO     | motor                | Tick completado. Ingresos: +$1,215.50. Día 1 Hora 21
+2026-04-23 08:11:33 | INFO     | motor                | Tick completado. Ingresos: +$78.10. Día 1 Hora 22
+2026-04-23 08:11:34 | INFO     | motor                | Tick completado. Ingresos: +$33.00. Día 1 Hora 23
+2026-04-23 08:11:35 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-23 08:17:08 | INFO     | motor                | Motor: Partida «partida1» cargada (Parque ID=1)
+2026-04-23 08:17:13 | INFO     | motor                | Motor: Partida «partida1» cargada (Parque ID=1)
+2026-04-23 08:17:24 | INFO     | db                   | Seed: 8 secciones científicas inicializadas.
+2026-04-23 08:17:24 | INFO     | db                   | Seed: 15 atracciones científicas inicializadas.
+2026-04-23 08:17:24 | INFO     | db                   | Seed: Productos de inventario inicializados.
+2026-04-23 08:17:38 | INFO     | motor                | Motor: Partida «Luis» cargada (Parque ID=1)
+2026-04-23 08:29:17 | INFO     | motor                | Motor: Partida «Luis» cargada (Parque ID=1)
+2026-04-23 08:29:18 | INFO     | main_window          | Velocidad: estandar (60×)
+2026-04-23 08:29:18 | INFO     | main_window          | MainWindow inicializada correctamente.
+2026-04-23 08:29:21 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-23 08:29:22 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-23 08:29:23 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-23 08:29:24 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-23 08:29:25 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-23 08:29:27 | INFO     | main_window          | Velocidad: obs (1×)
+2026-04-23 08:29:27 | INFO     | main_window          | Velocidad: pausa (0×)
+2026-04-23 08:29:36 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-23 08:33:12 | INFO     | motor                | Motor: Partida «Luis» cargada (Parque ID=1)
+2026-04-23 08:33:13 | INFO     | main_window          | MainWindow inicializada correctamente.
+2026-04-23 08:33:25 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-23 08:33:30 | INFO     | main_window          | Velocidad de simulación: 🐢  LENTO (3000ms/tick)
+2026-04-23 08:33:33 | INFO     | motor                | Tick completado. Ingresos: +$828.30. Día 1 Hora 09
+2026-04-23 08:33:36 | INFO     | motor                | Tick completado. Ingresos: +$1,863.40. Día 1 Hora 10
+2026-04-23 08:33:39 | INFO     | motor                | Tick completado. Ingresos: +$1,479.50. Día 1 Hora 11
+2026-04-23 08:33:42 | INFO     | motor                | Tick completado. Ingresos: +$1,437.70. Día 1 Hora 12
+2026-04-23 08:33:45 | INFO     | motor                | Tick completado. Ingresos: +$1,417.90. Día 1 Hora 13
+2026-04-23 08:33:45 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...

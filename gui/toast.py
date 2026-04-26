@@ -1,23 +1,23 @@
 """
 ScienceWorld Park — gui/toast.py
-Sistema de notificaciones Toast flotantes auto-dismissables.
+PIXEL ART RETRO Toast notifications.
 """
 
 from PySide6.QtWidgets import QFrame, QVBoxLayout, QLabel
 from PySide6.QtCore    import Qt, QTimer
 
-# Paleta de colores por nivel
+# Paleta retro pixel por nivel
 _PALETTE = {
-    "info":    ("#00d1ff", "#081828"),
-    "success": ("#10b981", "#081f15"),
-    "warning": ("#f59e0b", "#1f170a"),
-    "error":   ("#ef4444", "#1f0c0c"),
-    "event":   ("#a78bfa", "#13101f"),
+    "info":    ("#00FF41", "#0D1A0F", ">>"),
+    "success": ("#39FF14", "#091A0B", "OK"),
+    "warning": ("#FFE600", "#1A1500", "!!"),
+    "error":   ("#FF2D55", "#1A040A", "XX"),
+    "event":   ("#00FFFF", "#051A1A", "**"),
 }
 
 
 class Toast(QFrame):
-    """Widget hijo que flota sobre el contenido de la ventana principal."""
+    """Widget flotante estilo terminal retro."""
 
     def __init__(
         self,
@@ -28,37 +28,49 @@ class Toast(QFrame):
     ) -> None:
         super().__init__(parent)
 
-        color_text, color_bg = _PALETTE.get(nivel, _PALETTE["info"])
+        color_text, color_bg, prefix = _PALETTE.get(nivel, _PALETTE["info"])
 
         self.setStyleSheet(f"""
             QFrame {{
                 background-color: {color_bg};
-                border: 1px solid {color_text};
-                border-left: 4px solid {color_text};
-                border-radius: 8px;
+                border: 2px solid {color_text};
+                border-left: 6px solid {color_text};
+                border-radius: 0px;
             }}
         """)
-        self.setFixedWidth(360)
+        self.setFixedWidth(380)
 
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(14, 10, 14, 10)
-        layout.setSpacing(3)
+        layout.setContentsMargins(12, 8, 12, 8)
+        layout.setSpacing(2)
 
-        lbl_t = QLabel(titulo)
-        lbl_t.setStyleSheet(
-            f"color: {color_text}; font-size: 12px; font-weight: bold;"
+        # Cabecera estilo terminal
+        lbl_header = QLabel(f"┌─[{prefix}]─ {titulo.upper()}")
+        lbl_header.setStyleSheet(
+            f"color: {color_text}; font-size: 11px; font-weight: 900;"
             "border: none; background: transparent;"
+            "font-family: 'Courier New', monospace; letter-spacing: 1px;"
         )
-        layout.addWidget(lbl_t)
+        layout.addWidget(lbl_header)
 
         if mensaje:
-            lbl_m = QLabel(mensaje)
+            lbl_m = QLabel(f"│  {mensaje}")
             lbl_m.setWordWrap(True)
             lbl_m.setStyleSheet(
-                "color: #9ca3af; font-size: 11px;"
+                "color: #5A8F60; font-size: 10px;"
                 "border: none; background: transparent;"
+                "font-family: 'Courier New', monospace;"
             )
             layout.addWidget(lbl_m)
+
+        lbl_footer = QLabel("└─────────────────────────")
+        lbl_footer.setStyleSheet(
+            f"color: {color_text}; font-size: 9px;"
+            "border: none; background: transparent;"
+            "font-family: 'Courier New', monospace; letter-spacing: 0px;"
+            "opacity: 0.5;"
+        )
+        layout.addWidget(lbl_footer)
 
         self.adjustSize()
         self.raise_()
@@ -66,14 +78,11 @@ class Toast(QFrame):
 
 
 class ToastManager:
-    """
-    Gestiona una cola de Toasts apilados en la esquina superior derecha
-    de la ventana padre.
-    """
+    """Cola de Toasts apilados en la esquina superior derecha."""
 
-    _MARGIN_RIGHT = 24
-    _MARGIN_TOP   = 120   # espacio para la Topbar
-    _GAP          = 8
+    _MARGIN_RIGHT = 20
+    _MARGIN_TOP   = 118
+    _GAP          = 6
 
     def __init__(self, parent) -> None:
         self._parent = parent
@@ -99,7 +108,6 @@ class ToastManager:
         QTimer.singleShot(duration, _dismiss)
 
     def _restack(self) -> None:
-        """Reposiciona todos los Toasts activos de abajo a arriba."""
         if not self._parent:
             return
         pw = self._parent.width()
