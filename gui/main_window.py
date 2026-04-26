@@ -2,9 +2,17 @@
 ScienceWorld Park — gui/main_window.py
 Ventana principal con tema Cyber-Science, Toast notifications y Crisis Dialogs.
 Incluye avance automático del tiempo con velocidades seleccionables.
+
+Cambios v3.1:
+ - RELOJ ANIMADO: un QTimer de 80ms actualiza horas/minutos/segundos en tiempo
+   real interpolando entre ticks. El reloj in-game avanza a la velocidad de
+   simulación activa y se congela en PAUSA.
+ - PAUSA POR DEFECTO: al cargar o crear una partida la simulación arranca
+   siempre en PAUSA, requiriendo acción explícita del jugador para empezar.
 """
 
 import sys
+import time
 from PySide6.QtWidgets import (
     QMainWindow, QWidget, QHBoxLayout, QVBoxLayout, QFrame,
     QPushButton, QStackedWidget, QMessageBox, QButtonGroup, QLabel,
@@ -28,7 +36,7 @@ from gui.vistas.finanzas    import FinanzasView
 
 
 # ── Velocidades disponibles ──────────────────────────────────────────────────
-# Cada entrada: (etiqueta, intervalo en ms, 0 = pausado)
+# Cada entrada: (etiqueta, intervalo en ms entre ticks de 1h in-game, 0 = pausado)
 VELOCIDADES = [
     ("⏸  PAUSA",    0),
     ("🐢  LENTO",   3000),
@@ -36,6 +44,9 @@ VELOCIDADES = [
     ("⚡  RÁPIDO",   400),
     ("🚀  TURBO",    120),
 ]
+
+# Intervalo de refresco del reloj visual (ms)
+_CLOCK_REFRESH_MS = 80
 
 
 # ── Hoja de estilos QSS — Tema Cyber-Science ────────────────────────────────
@@ -283,10 +294,23 @@ class MainWindow(QMainWindow):
         # Sistema de Toasts
         self.toast = ToastManager(self)
 
-        # ── Timer de simulación ──────────────────────────────────────────
+        # ── Timer de simulación (lógica de ticks) ───────────────────────
         self._timer = QTimer(self)
         self._timer.timeout.connect(self._tick_automatico)
-        self._velocidad_actual = 0   # índice en VELOCIDADES (0 = pausa)
+        self._velocidad_actual = 0      # índice en VELOCIDADES (0 = pausa)
+        self._tick_interval_ms = 0      # ms por tick (0 = pausado)
+
+        # ── Reloj animado ────────────────────────────────────────────────
+        # Rastrea el momento real del último tick para interpolar MM:SS
+        self._last_tick_real_time: float = time.monotonic()
+        self._clock_hora: int  = 8      # hora in-game mostrada
+        self._clock_min:  int  = 0
+        self._clock_sec:  int  = 0
+
+        self._clock_timer = QTimer(self)
+        self._clock_timer.setInterval(_CLOCK_REFRESH_MS)
+        self._clock_timer.timeout.connect(self._actualizar_reloj)
+        self._clock_timer.start()       # siempre activo; si pausa → tiempo congelado
 
         # Layout raíz
         central = QWidget()
@@ -310,10 +334,9 @@ class MainWindow(QMainWindow):
             )
         )
 
-        # Botón inicial activo
+        # Estado inicial: primera opción de navegación activa, velocidad = PAUSA
         self._btn_group.button(0).setChecked(True)
-        # Velocidad inicial: PAUSA
-        self._speed_group.button(0).setChecked(True)
+        self._speed_group.button(0).setChecked(True)   # PAUSA por defecto
 
         self.actualizar_interfaz()
         log.info("MainWindow inicializada correctamente.")
@@ -408,7 +431,7 @@ class MainWindow(QMainWindow):
 
         self.card_dinero = InfoCard("Fondos",      "$0",    "💰")
         self.card_rep    = InfoCard("Prestigio",   "0.0%",  "⭐")
-        self.card_time   = InfoCard("Tiempo",      "Día 1", "🕒")
+        self.card_time   = InfoCard("Tiempo",      "D1 08:00:00", "🕒")
         self.card_visi   = InfoCard("Público",     "0",     "👥")
         self.card_stock  = InfoCard("Logística",   "OK",    "🧪")
         self.card_speed  = InfoCard("Velocidad",   "PAUSA", "⏱️")
@@ -450,10 +473,14 @@ class MainWindow(QMainWindow):
         """Activa/desactiva el timer según la velocidad elegida."""
         self._velocidad_actual = idx
         etiqueta, ms = VELOCIDADES[idx]
+        self._tick_interval_ms = ms
 
         self._timer.stop()
         if ms > 0:
             self._timer.start(ms)
+            # Al reanudar, resetear el origen del reloj para que empiece
+            # desde donde se quedó sin saltar segundos
+            self._last_tick_real_time = time.monotonic()
 
         # Actualizar card de velocidad en topbar
         nombre_limpio = etiqueta.split("  ", 1)[-1].strip()
@@ -462,6 +489,40 @@ class MainWindow(QMainWindow):
         self.card_speed.set_color(color)
 
         log.info(f"Velocidad de simulación: {etiqueta} ({ms}ms/tick)")
+
+    # ── Reloj animado ─────────────────────────────────────────────────────
+
+    @Slot()
+    def _actualizar_reloj(self) -> None:
+        """
+        Se ejecuta cada 80ms. Interpola minutos y segundos dentro del tick
+        actual basándose en el tiempo real transcurrido desde el último tick.
+        En PAUSA el reloj queda congelado.
+        """
+        if self._tick_interval_ms <= 0:
+            # Pausa: mostrar la hora congelada sin animación
+            self.card_time.update_value(
+                f"D{self._clock_dia}  {self._clock_hora:02d}:{self._clock_min:02d}:{self._clock_sec:02d}"
+            )
+            return
+
+        # Segundos reales transcurridos desde el último tick
+        elapsed_real = time.monotonic() - self._last_tick_real_time
+
+        # Fracción del tick completada (0.0 … 1.0)
+        tick_seg = self._tick_interval_ms / 1000.0
+        fraccion = min(elapsed_real / tick_seg, 1.0)
+
+        # Convertir fracción a segundos in-game dentro de 1 hora (3600s)
+        ig_seconds = int(fraccion * 3600)
+        min_ig  = (ig_seconds // 60) % 60
+        sec_ig  = ig_seconds % 60
+
+        self.card_time.update_value(
+            f"D{self._clock_dia}  {self._clock_hora:02d}:{min_ig:02d}:{sec_ig:02d}"
+        )
+
+    # ── Tick automático ───────────────────────────────────────────────────
 
     @Slot()
     def _tick_automatico(self) -> None:
@@ -482,10 +543,14 @@ class MainWindow(QMainWindow):
 
             self.card_dinero.update_value(f"${p.dinero:,.0f}")
             self.card_rep.update_value(f"{p.reputacion:.1f}")
-            self.card_time.update_value(f"Día {p.dia_actual}  {p.hora_actual:02d}:00")
+
+            # Actualizar estado interno del reloj
+            self._clock_hora = p.hora_actual
+            self._clock_dia  = p.dia_actual
+            self._clock_min  = 0
+            self._clock_sec  = 0
 
             # Visitantes estimados
-            from models.atracciones import AtraccionModel
             visitantes = int(p.reputacion * 1.5)
             self.card_visi.update_value(str(max(0, visitantes)))
 
@@ -514,6 +579,12 @@ class MainWindow(QMainWindow):
 
     @Slot()
     def _on_tick(self) -> None:
+        """
+        Al completar un tick de 1 hora in-game:
+        - Registra el instante real para que el reloj arranque desde 00:00.
+        - Actualiza la interfaz con los nuevos datos de BD.
+        """
+        self._last_tick_real_time = time.monotonic()
         self.actualizar_interfaz()
 
     @Slot(str, str)
@@ -528,7 +599,6 @@ class MainWindow(QMainWindow):
     @Slot(str, str)
     def _on_crisis(self, titulo: str, descripcion: str) -> None:
         """Pausa el timer, lanza el diálogo y lo reanuda al cerrar."""
-        # Pausar automáticamente durante una crisis
         velocidad_previa = self._velocidad_actual
         self._timer.stop()
 
@@ -551,7 +621,7 @@ class MainWindow(QMainWindow):
         dlg.exec()
         self.actualizar_interfaz()
 
-        # Reanudar a la velocidad que había antes de la crisis
+        # Reanudar a la velocidad previa
         self._cambiar_velocidad(velocidad_previa)
 
     # ── Teclado ───────────────────────────────────────────────────────────
@@ -561,6 +631,9 @@ class MainWindow(QMainWindow):
             # Tick manual: solo si está en pausa
             if not self._timer.isActive():
                 try:
+                    # Registrar tiempo antes del tick para que el reloj
+                    # empiece desde 00 tras el salto manual
+                    self._last_tick_real_time = time.monotonic()
                     self.motor.ejecutar_tick()
                 except Exception as exc:
                     QMessageBox.critical(self, "Error del Motor", str(exc))
@@ -569,5 +642,6 @@ class MainWindow(QMainWindow):
 
     def closeEvent(self, event) -> None:
         self._timer.stop()
+        self._clock_timer.stop()
         log.info("Cerrando ScienceWorld Park. Guardando estado final...")
         event.accept()

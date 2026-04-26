@@ -1888,3 +1888,57 @@
 2026-04-23 08:33:42 | INFO     | motor                | Tick completado. Ingresos: +$1,437.70. Día 1 Hora 12
 2026-04-23 08:33:45 | INFO     | motor                | Tick completado. Ingresos: +$1,417.90. Día 1 Hora 13
 2026-04-23 08:33:45 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-26 17:19:20 | INFO     | db                   | Migración: columna 'modo' añadida a 'partidas'.
+2026-04-26 17:19:20 | INFO     | db                   | Migración: columna 'dificultad_key' añadida a 'partidas'.
+2026-04-26 17:20:05 | INFO     | db                   | Seed Modo Extremo: dinero=-180.000€, rep=8, 12/15 atracciones averiadas, stock=0
+2026-04-26 17:20:05 | INFO     | motor                | Motor: Partida «miparque» cargada (Parque ID=2)
+2026-04-26 17:20:05 | INFO     | main_window          | MainWindow inicializada correctamente.
+2026-04-26 17:20:08 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-26 17:20:15 | INFO     | main_window          | Navegación: Cambiando a vista 0.
+2026-04-26 17:20:19 | INFO     | main_window          | Velocidad de simulación: 🐢  LENTO (3000ms/tick)
+2026-04-26 17:20:22 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-26 17:20:22 | INFO     | motor                | Tick completado. Ingresos: +$150.70. Día 1 Hora 09
+2026-04-26 17:20:24 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-26 17:20:25 | INFO     | motor                | Tick completado. Ingresos: +$246.40. Día 1 Hora 10
+2026-04-26 17:20:27 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-26 17:20:27 | INFO     | main_window          | Velocidad de simulación: ⏸  PAUSA (0ms/tick)
+2026-04-26 17:20:33 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-26 17:20:35 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-26 17:20:36 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-26 17:20:38 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-26 17:20:40 | INFO     | main_window          | Navegación: Cambiando a vista 0.
+2026-04-26 17:20:41 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-26 17:20:50 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-26 17:20:51 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-26 17:20:52 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-26 17:20:53 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-26 17:20:54 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-26 17:20:59 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-26 17:21:22 | INFO     | db                   | Seed Modo Campaña [FACIL]: dinero=750,000€, rep=50, atracciones=5, empleados=8
+2026-04-26 17:21:22 | INFO     | motor                | Motor: Partida «miparques» cargada (Parque ID=3)
+2026-04-26 17:21:22 | INFO     | main_window          | MainWindow inicializada correctamente.
+2026-04-26 17:21:24 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-26 17:21:29 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-26 17:21:30 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-26 17:21:31 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-26 17:21:32 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-26 17:21:39 | INFO     | main_window          | Navegación: Cambiando a vista 0.
+2026-04-26 17:21:40 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-26 17:21:46 | INFO     | main_window          | Velocidad de simulación: 🐢  LENTO (3000ms/tick)
+2026-04-26 17:21:49 | INFO     | motor                | Tick completado. Ingresos: +$1,137.40. Día 1 Hora 09
+2026-04-26 17:21:52 | INFO     | motor                | Tick completado. Ingresos: +$1,453.10. Día 1 Hora 10
+2026-04-26 17:21:55 | INFO     | motor                | Tick completado. Ingresos: +$1,516.90. Día 1 Hora 11
+2026-04-26 17:21:55 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-26 17:21:57 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-26 17:21:58 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-26 17:21:58 | INFO     | motor                | Tick completado. Ingresos: +$1,344.20. Día 1 Hora 12
+2026-04-26 17:22:00 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-26 17:22:01 | INFO     | motor                | Tick completado. Ingresos: +$2,200.00. Día 1 Hora 13
+2026-04-26 17:22:02 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-26 17:22:04 | INFO     | motor                | Tick completado. Ingresos: +$1,696.20. Día 1 Hora 14
+2026-04-26 17:22:07 | INFO     | motor                | Tick completado. Ingresos: +$1,560.90. Día 1 Hora 15
+2026-04-26 17:22:10 | INFO     | motor                | Tick completado. Ingresos: +$2,487.10. Día 1 Hora 16
+2026-04-26 17:22:13 | INFO     | motor                | Tick completado. Ingresos: +$1,670.90. Día 1 Hora 17
+2026-04-26 17:22:16 | INFO     | motor                | Tick completado. Ingresos: +$2,164.80. Día 1 Hora 18
+2026-04-26 17:22:16 | INFO     | main_window          | Velocidad de simulación: ⏸  PAUSA (0ms/tick)
+2026-04-26 17:22:22 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...

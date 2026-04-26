@@ -1,10 +1,12 @@
 """
 ScienceWorld Park — gui/login_window.py
 
-Correcciones aplicadas (v3.0):
+Correcciones aplicadas (v3.1):
  - G.1/G.2: Selector de modo (Campaña / Extremo) y dificultad antes de crear partida.
              Al confirmar se llama a seed_modo_campana() o seed_modo_extremo()
              antes de emitir partida_seleccionada.
+ - NUEVO: Pantalla de registro (página 3) accesible desde el login.
+          Permite crear nuevas cuentas de usuario con validación de campos.
 """
 
 from PySide6.QtWidgets import (
@@ -43,6 +45,7 @@ class LoginWindow(QWidget):
         self._setup_login_ui()       # página 0
         self._setup_partidas_ui()    # página 1
         self._setup_nueva_ui()       # página 2 — selector de modo/dificultad
+        self._setup_registro_ui()    # página 3 — nueva cuenta
 
     # ── Estilos ───────────────────────────────────────────────────────────
 
@@ -73,6 +76,17 @@ class LoginWindow(QWidget):
                 background-color: rgba(0,209,255,0.30);
                 border-color: #00d1ff;
             }
+            QPushButton#BtnSecundario {
+                background-color: transparent;
+                color: #4b5563;
+                border: 1px solid #1a1f2e;
+                padding: 10px;
+            }
+            QPushButton#BtnSecundario:hover {
+                background-color: rgba(255,255,255,0.04);
+                color: #9ca3af;
+                border-color: #374151;
+            }
             QListWidget {
                 background-color: #0f1423;
                 border: 1px solid #1a1f2e;
@@ -93,6 +107,11 @@ class LoginWindow(QWidget):
                 padding: 8px;
             }
             QFrame#ModeCard:hover { border-color: rgba(0,209,255,0.4); }
+            QFrame#Separador {
+                background: #1a1f2e;
+                max-height: 1px;
+                border: none;
+            }
         """)
 
     # ── Página 0: Login ───────────────────────────────────────────────────
@@ -100,7 +119,7 @@ class LoginWindow(QWidget):
     def _setup_login_ui(self):
         page = QWidget()
         lay  = QVBoxLayout(page)
-        lay.setSpacing(18)
+        lay.setSpacing(14)
         lay.setContentsMargins(40, 40, 40, 40)
 
         title = QLabel("SCIENCEWORLD PARK")
@@ -125,6 +144,16 @@ class LoginWindow(QWidget):
         btn_login = QPushButton("ENTRAR AL SISTEMA")
         btn_login.clicked.connect(self._intentar_login)
 
+        # Separador visual
+        sep_frame = QFrame()
+        sep_frame.setObjectName("Separador")
+        sep_frame.setFixedHeight(1)
+
+        # Botón de registro secundario
+        btn_registro = QPushButton("¿Primera vez?  CREAR CUENTA NUEVA")
+        btn_registro.setObjectName("BtnSecundario")
+        btn_registro.clicked.connect(lambda: self.stack.setCurrentIndex(3))
+
         lay.addStretch()
         lay.addWidget(title)
         lay.addWidget(subtitle)
@@ -132,6 +161,10 @@ class LoginWindow(QWidget):
         lay.addWidget(self.txt_user)
         lay.addWidget(self.txt_pass)
         lay.addWidget(btn_login)
+        lay.addSpacing(8)
+        lay.addWidget(sep_frame)
+        lay.addSpacing(4)
+        lay.addWidget(btn_registro)
         lay.addStretch()
 
         self.stack.addWidget(page)
@@ -282,6 +315,89 @@ class LoginWindow(QWidget):
 
         self.stack.addWidget(page)
 
+    # ── Página 3: Registro de nueva cuenta ───────────────────────────────
+
+    def _setup_registro_ui(self):
+        page = QWidget()
+        lay  = QVBoxLayout(page)
+        lay.setSpacing(14)
+        lay.setContentsMargins(40, 36, 40, 36)
+
+        # Cabecera
+        lbl_titulo = QLabel("NUEVA CUENTA")
+        lbl_titulo.setStyleSheet(
+            "font-size: 22px; font-weight: 900; color: #00d1ff; letter-spacing: 4px;"
+        )
+        lbl_titulo.setAlignment(Qt.AlignCenter)
+        lay.addWidget(lbl_titulo)
+
+        lbl_sub = QLabel("Crea tus credenciales de acceso al sistema")
+        lbl_sub.setStyleSheet("color: #374151; font-size: 10px; letter-spacing: 1px;")
+        lbl_sub.setAlignment(Qt.AlignCenter)
+        lay.addWidget(lbl_sub)
+
+        lay.addSpacing(10)
+
+        # ── Campos ────────────────────────────────────────────────────────
+        lbl_user = QLabel("NOMBRE DE USUARIO")
+        lbl_user.setStyleSheet(
+            "color: #4b5563; font-size: 9px; font-weight: 800; letter-spacing: 2px;"
+        )
+        lay.addWidget(lbl_user)
+
+        self.txt_reg_user = QLineEdit()
+        self.txt_reg_user.setPlaceholderText("Mínimo 3 caracteres...")
+        lay.addWidget(self.txt_reg_user)
+
+        lbl_pw = QLabel("CONTRASEÑA")
+        lbl_pw.setStyleSheet(
+            "color: #4b5563; font-size: 9px; font-weight: 800; letter-spacing: 2px;"
+        )
+        lay.addWidget(lbl_pw)
+
+        self.txt_reg_pass = QLineEdit()
+        self.txt_reg_pass.setPlaceholderText("Mínimo 6 caracteres...")
+        self.txt_reg_pass.setEchoMode(QLineEdit.Password)
+        lay.addWidget(self.txt_reg_pass)
+
+        lbl_pw2 = QLabel("CONFIRMAR CONTRASEÑA")
+        lbl_pw2.setStyleSheet(
+            "color: #4b5563; font-size: 9px; font-weight: 800; letter-spacing: 2px;"
+        )
+        lay.addWidget(lbl_pw2)
+
+        self.txt_reg_pass2 = QLineEdit()
+        self.txt_reg_pass2.setPlaceholderText("Repite la contraseña...")
+        self.txt_reg_pass2.setEchoMode(QLineEdit.Password)
+        self.txt_reg_pass2.returnPressed.connect(self._registrar_usuario)
+        lay.addWidget(self.txt_reg_pass2)
+
+        # Mensaje de estado (errores / éxito)
+        self._lbl_reg_estado = QLabel("")
+        self._lbl_reg_estado.setWordWrap(True)
+        self._lbl_reg_estado.setAlignment(Qt.AlignCenter)
+        self._lbl_reg_estado.setStyleSheet("font-size: 10px; padding: 4px 0;")
+        lay.addWidget(self._lbl_reg_estado)
+
+        lay.addStretch()
+
+        # Botones
+        btn_row = QHBoxLayout()
+        btn_row.setSpacing(10)
+
+        btn_volver = QPushButton("← VOLVER AL LOGIN")
+        btn_volver.setObjectName("BtnSecundario")
+        btn_volver.clicked.connect(self._volver_login_desde_registro)
+
+        btn_registrar = QPushButton("CREAR CUENTA →")
+        btn_registrar.clicked.connect(self._registrar_usuario)
+
+        btn_row.addWidget(btn_volver)
+        btn_row.addWidget(btn_registrar)
+        lay.addLayout(btn_row)
+
+        self.stack.addWidget(page)
+
     # ── Helpers de UI ─────────────────────────────────────────────────────
 
     def _on_modo_changed(self):
@@ -300,6 +416,14 @@ class LoginWindow(QWidget):
         label = self.combo_diff.currentText()
         self._lbl_diff_desc.setText(self._DIFF_DESCS.get(label, ""))
 
+    def _volver_login_desde_registro(self):
+        """Limpia los campos de registro y vuelve al login."""
+        self.txt_reg_user.clear()
+        self.txt_reg_pass.clear()
+        self.txt_reg_pass2.clear()
+        self._lbl_reg_estado.setText("")
+        self.stack.setCurrentIndex(0)
+
     # ── Lógica de negocio ─────────────────────────────────────────────────
 
     def _intentar_login(self):
@@ -309,6 +433,63 @@ class LoginWindow(QWidget):
             self.stack.setCurrentIndex(1)
         else:
             QMessageBox.critical(self, "Error", "Credenciales inválidas.")
+
+    def _registrar_usuario(self):
+        """Valida los campos y crea el usuario si todo es correcto."""
+        username = self.txt_reg_user.text().strip()
+        password = self.txt_reg_pass.text()
+        confirm  = self.txt_reg_pass2.text()
+
+        # Validaciones
+        if len(username) < 3:
+            self._mostrar_error_registro("El nombre de usuario debe tener al menos 3 caracteres.")
+            return
+
+        if len(password) < 6:
+            self._mostrar_error_registro("La contraseña debe tener al menos 6 caracteres.")
+            return
+
+        if password != confirm:
+            self._mostrar_error_registro("Las contraseñas no coinciden.")
+            return
+
+        if UsuarioModel.get_or_none(UsuarioModel.username == username):
+            self._mostrar_error_registro(f"El usuario «{username}» ya existe.")
+            return
+
+        # Crear cuenta
+        try:
+            UsuarioModel.crear_usuario(username, password, "Manager")
+        except Exception as exc:
+            self._mostrar_error_registro(f"Error al crear la cuenta: {exc}")
+            return
+
+        # Éxito — pre-rellenar el login y redirigir
+        self._lbl_reg_estado.setText("✅  ¡Cuenta creada con éxito!")
+        self._lbl_reg_estado.setStyleSheet("color: #10b981; font-size: 10px; padding: 4px 0;")
+
+        self.txt_user.setText(username)
+        self.txt_pass.clear()
+
+        # Limpiar campos de registro
+        self.txt_reg_user.clear()
+        self.txt_reg_pass.clear()
+        self.txt_reg_pass2.clear()
+
+        QMessageBox.information(
+            self,
+            "Cuenta Creada",
+            f"Usuario «{username}» registrado correctamente.\n"
+            "Ya puedes iniciar sesión con tus credenciales.",
+        )
+        self._lbl_reg_estado.setText("")
+        self.stack.setCurrentIndex(0)
+
+    def _mostrar_error_registro(self, mensaje: str):
+        self._lbl_reg_estado.setText(f"⚠  {mensaje}")
+        self._lbl_reg_estado.setStyleSheet(
+            "color: #ef4444; font-size: 10px; padding: 4px 0;"
+        )
 
     def _refrescar_partidas(self):
         self.lista_partidas.clear()

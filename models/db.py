@@ -6,6 +6,10 @@ Correcciones aplicadas (v3.0):
  - B.2b: timeout=30 en SqliteDatabase
  - G.1/G.2: seed_modo_campana(dificultad) y seed_modo_extremo() añadidas.
              Se llaman desde LoginWindow antes de MotorSimulacion().cargar_partida().
+
+Correcciones aplicadas (v3.1):
+ - MIGRACIÓN: _migrate() añade columnas ausentes en tablas existentes
+   (modo, dificultad_key en 'partidas') sin necesidad de borrar la BD.
 """
 
 import os
@@ -57,7 +61,35 @@ def init_db() -> None:
         safe=True,
     )
 
+    # Aplicar migraciones de esquema antes de usar los modelos
+    _migrate()
     _seed()
+
+
+# ────────────────────────────────────────────────────────────────────────────
+def _migrate() -> None:
+    """
+    Añade columnas que pueden faltar en bases de datos creadas con versiones
+    anteriores del código. Usa ALTER TABLE … ADD COLUMN que SQLite ignora si
+    la columna ya existe (gracias al bloque try/except por columna).
+
+    Añadir aquí cualquier migración futura siguiendo el mismo patrón.
+    """
+    migraciones = [
+        # tabla           columna           definición SQL
+        ("partidas", "modo",           "TEXT NOT NULL DEFAULT 'campana'"),
+        ("partidas", "dificultad_key", "TEXT NOT NULL DEFAULT 'normal'"),
+    ]
+
+    for tabla, columna, definicion in migraciones:
+        try:
+            db.execute_sql(
+                f"ALTER TABLE {tabla} ADD COLUMN {columna} {definicion};"
+            )
+            log.info(f"Migración: columna '{columna}' añadida a '{tabla}'.")
+        except Exception:
+            # La columna ya existe — ignorar silenciosamente
+            pass
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -122,35 +154,34 @@ def _seed() -> None:
 # ── Sección G: Modos de juego ────────────────────────────────────────────────
 
 # G.1 — Configuración por dificultad (Modo Campaña)
-# Parámetros: dinero inicial, reputación, nº atracciones activas, nº empleados
 DIFICULTAD_CONFIG: dict[str, dict] = {
     "facil": {
         "dinero": 750_000, "reputacion": 50,
         "atracciones": 5,  "empleados": 8,
         "umbral_quiebra": 150_000,
         "objetivo_rep": 80, "objetivo_dinero": 1_000_000,
-        "prob_eventos_negativo": 0.5,   # reducidos -50%
+        "prob_eventos_negativo": 0.5,
     },
     "normal": {
         "dinero": 500_000, "reputacion": 35,
         "atracciones": 3,  "empleados": 4,
         "umbral_quiebra": 250_000,
         "objetivo_rep": 85, "objetivo_dinero": 2_000_000,
-        "prob_eventos_negativo": 1.0,   # normales
+        "prob_eventos_negativo": 1.0,
     },
     "dificil": {
         "dinero": 250_000, "reputacion": 20,
         "atracciones": 1,  "empleados": 2,
         "umbral_quiebra": 400_000,
         "objetivo_rep": 90, "objetivo_dinero": 3_000_000,
-        "prob_eventos_negativo": 1.25,  # +25%
+        "prob_eventos_negativo": 1.25,
     },
     "pesadilla": {
         "dinero": 100_000, "reputacion": 10,
         "atracciones": 0,  "empleados": 0,
         "umbral_quiebra": 550_000,
         "objetivo_rep": 95, "objetivo_dinero": 5_000_000,
-        "prob_eventos_negativo": 1.5,   # +50%
+        "prob_eventos_negativo": 1.5,
     },
 }
 
@@ -175,19 +206,16 @@ def seed_modo_campana(parque_id: int, dificultad: str = "normal") -> None:
         parque.hora_actual = 8
         parque.save()
 
-        # Activar solo N atracciones según dificultad, desactivar el resto
         for i, atr in enumerate(AtraccionModel.select()):
             atr.activo          = (i < cfg["atracciones"])
             atr.en_mantenimiento = False
             atr.integridad      = 100.0
             atr.save()
 
-        # Desactivar empleados sobrantes (si hay menos que el seed completo)
         for i, emp in enumerate(EmpleadoModel.select()):
             emp.activo = (i < cfg["empleados"])
             emp.save()
 
-        # Stock inicial proporcional a la dificultad
         stock_pct = {
             "facil": 0.80, "normal": 0.50,
             "dificil": 0.25, "pesadilla": 0.0,
@@ -207,8 +235,6 @@ def seed_modo_campana(parque_id: int, dificultad: str = "normal") -> None:
 def seed_modo_extremo(parque_id: int) -> None:
     """
     G.2: configura el parque para Modo Extremo (rescate en bancarrota).
-    Condiciones iniciales fijas según el PDF §G.2.
-    Llamar ANTES de MotorSimulacion().cargar_partida().
     """
     import random
     from models.parque      import ParqueModel
@@ -218,17 +244,15 @@ def seed_modo_extremo(parque_id: int) -> None:
 
     with db.atomic():
         parque = ParqueModel.get_by_id(parque_id)
-        parque.dinero     = -180_000   # saldo negativo desde el inicio
-        parque.reputacion = 8          # críticas devastadoras
+        parque.dinero     = -180_000
+        parque.reputacion = 8
         parque.dia_actual  = 1
         parque.hora_actual = 8
         parque.save()
 
-        # 12 de 15 atracciones averiadas (integridad 5–30%), solo 3 operativas
         atracciones = list(AtraccionModel.select())
         for i, atr in enumerate(atracciones):
             if i < 3:
-                # Las 3 más simples quedan operativas
                 atr.activo           = True
                 atr.en_mantenimiento = False
                 atr.integridad       = 100.0
@@ -238,12 +262,10 @@ def seed_modo_extremo(parque_id: int) -> None:
                 atr.integridad       = random.uniform(5.0, 30.0)
             atr.save()
 
-        # Solo 3 empleados activos, el resto desactivado
         for i, emp in enumerate(EmpleadoModel.select()):
             emp.activo = (i < 3)
             emp.save()
 
-        # Inventario completamente vacío
         for inv in InventarioModel.select():
             inv.stock_actual = 0
             inv.save()
