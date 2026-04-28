@@ -1,0 +1,72 @@
+===========================================
+ RECONSTRUIR LA CARPETA DIST DEL PROYECTO
+ (EJECUTANDO TODO DESDE ./binarios)
+===========================================
+
+Este proyecto almacena la carpeta dist comprimida en varias partes
+para cumplir con las restricciones de tamaño de GitHub.
+
+Estas instrucciones permiten reconstruir dist ejecutando los comandos
+desde dentro de la carpeta ./binarios.
+
+-------------------------------------------
+1) Asegúrate de tener 7-Zip instalado
+-------------------------------------------
+
+Descarga (Windows):
+    https://www.7-zip.org/
+
+Ruta típica del ejecutable:
+    "C:\Program Files\7-Zip\7z.exe"
+
+-------------------------------------------
+2) Colócate en la carpeta ./binarios
+-------------------------------------------
+
+Ejemplo:
+    cd binarios
+
+Asegúrate de que aquí están los archivos:
+    dist_completa.7z.001
+    dist_completa.7z.002
+    dist_completa.7z.003
+    ...
+
+-------------------------------------------
+3) Extraer las partes desde ./binarios
+-------------------------------------------
+
+Ejecuta este comando:
+
+    & "C:\Program Files\7-Zip\7z.exe" x dist_completa.7z.001 -otemp_dist
+
+Esto hará lo siguiente:
+- Unirá automáticamente todas las partes .7z.00X
+- Extraerá el contenido en la carpeta "temp_dist"
+
+-------------------------------------------
+4) Mover la carpeta dist reconstruida
+-------------------------------------------
+
+Después de extraer, encontrarás:
+
+    ./binarios/temp_dist/dist/
+
+Ahora muévela a la raíz del proyecto:
+
+PowerShell:
+
+    Move-Item temp_dist/dist ../dist
+
+-------------------------------------------
+5) (Opcional) Borrar la carpeta temporal
+-------------------------------------------
+
+    Remove-Item -Recurse -Force temp_dist
+
+-------------------------------------------
+¡Listo!
+-------------------------------------------
+
+Ya tienes la carpeta dist reconstruida en la raíz del proyecto.
+Puedes ejecutar el programa normalmente.
