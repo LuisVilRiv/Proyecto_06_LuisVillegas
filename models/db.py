@@ -1,21 +1,24 @@
 """
 ScienceWorld Park — models/db.py
-Conexión SQLite + creación de tablas + seed inicial + seeds de modos de juego.
-
-Correcciones aplicadas (v3.0):
- - B.2b: timeout=30 en SqliteDatabase
- - G.1/G.2: seed_modo_campana(dificultad) y seed_modo_extremo() añadidas.
-             Se llaman desde LoginWindow antes de MotorSimulacion().cargar_partida().
-
-Correcciones aplicadas (v3.1):
- - MIGRACIÓN: _migrate() añade columnas ausentes en tablas existentes
-   (modo, dificultad_key en 'partidas') sin necesidad de borrar la BD.
+Conexión SQLite + creación de tablas + seed inicial + modos de juego.
 """
 
 import os
 import sys
+import random
 from peewee import SqliteDatabase, Model
 from core.logger import log
+
+# ─────────────────────────────────────────────────────────────
+# DB
+# ─────────────────────────────────────────────────────────────
+
+db = SqliteDatabase(None, timeout=30)
+
+
+class BaseModel(Model):
+    class Meta:
+        database = db
 
 
 def get_db_path() -> str:
@@ -26,59 +29,49 @@ def get_db_path() -> str:
     return os.path.join(base, "scienceworld.db")
 
 
-# B.2b: timeout=30 — evita OperationalError 'database is locked' en acceso concurrente
-db = SqliteDatabase(None, timeout=30)
+# ─────────────────────────────────────────────────────────────
+# INIT
+# ─────────────────────────────────────────────────────────────
 
-
-class BaseModel(Model):
-    class Meta:
-        database = db
-
-
-# ────────────────────────────────────────────────────────────────────────────
 def init_db() -> None:
-    from models.parque      import ParqueModel
-    from models.secciones   import SeccionModel
+    from models.parque import ParqueModel
+    from models.secciones import SeccionModel
     from models.atracciones import AtraccionModel
-    from models.empleados   import EmpleadoModel
-    from models.inventario  import InventarioModel
-    from models.usuarios    import UsuarioModel, PartidaModel
+    from models.empleados import EmpleadoModel
+    from models.inventario import InventarioModel
+    from models.usuarios import UsuarioModel, PartidaModel
     from models.eventos_log import EventoLogModel
-    from models.tickets     import TicketModel
-    from models.finanzas    import MovimientoFinanciero
+    from models.tickets import TicketModel
+    from models.finanzas import MovimientoFinanciero
 
     db.init(get_db_path())
     db.connect(reuse_if_open=True)
+
     db.pragma("journal_mode", "wal")
     db.pragma("foreign_keys", 1)
 
-    db.create_tables(
-        [
-            SeccionModel, ParqueModel, AtraccionModel, EmpleadoModel,
-            InventarioModel, UsuarioModel, PartidaModel, EventoLogModel,
-            TicketModel, MovimientoFinanciero,
-        ],
-        safe=True,
-    )
+    db.create_tables([
+        SeccionModel, ParqueModel, AtraccionModel, EmpleadoModel,
+        InventarioModel, UsuarioModel, PartidaModel, EventoLogModel,
+        TicketModel, MovimientoFinanciero
+    ], safe=True)
 
-    # Aplicar migraciones de esquema antes de usar los modelos
     _migrate()
     _seed()
 
 
-# ────────────────────────────────────────────────────────────────────────────
-def _migrate() -> None:
-    """
-    Añade columnas que pueden faltar en bases de datos creadas con versiones
-    anteriores del código. Usa ALTER TABLE … ADD COLUMN que SQLite ignora si
-    la columna ya existe (gracias al bloque try/except por columna).
+# ─────────────────────────────────────────────────────────────
+# MIGRACIONES
+# ─────────────────────────────────────────────────────────────
 
-    Añadir aquí cualquier migración futura siguiendo el mismo patrón.
-    """
+def _migrate() -> None:
     migraciones = [
-        # tabla           columna           definición SQL
-        ("partidas", "modo",           "TEXT NOT NULL DEFAULT 'campana'"),
+        ("partidas", "modo", "TEXT NOT NULL DEFAULT 'campana'"),
         ("partidas", "dificultad_key", "TEXT NOT NULL DEFAULT 'normal'"),
+        ("atracciones", "construida", "INTEGER NOT NULL DEFAULT 0"),
+        ("atracciones", "en_construccion", "INTEGER NOT NULL DEFAULT 0"),
+        ("atracciones", "dias_construccion_restantes", "INTEGER NOT NULL DEFAULT 0"),
+        ("atracciones", "prioridad_construccion", "TEXT NOT NULL DEFAULT 'media'"),
     ]
 
     for tabla, columna, definicion in migraciones:
@@ -86,191 +79,242 @@ def _migrate() -> None:
             db.execute_sql(
                 f"ALTER TABLE {tabla} ADD COLUMN {columna} {definicion};"
             )
-            log.info(f"Migración: columna '{columna}' añadida a '{tabla}'.")
+            log.info(f"Migración: {columna} añadida a {tabla}")
         except Exception:
-            # La columna ya existe — ignorar silenciosamente
             pass
 
 
-# ────────────────────────────────────────────────────────────────────────────
-def _seed() -> None:
-    """Pobla la BD con datos de referencia si está vacía."""
-    from models.secciones   import SeccionModel
-    from models.atracciones import AtraccionModel
-    from models.inventario  import InventarioModel
+# ─────────────────────────────────────────────────────────────
+# SEED BASE
+# ─────────────────────────────────────────────────────────────
 
+def _seed() -> None:
+    from models.secciones import SeccionModel
+    from models.atracciones import AtraccionModel
+    from models.inventario import InventarioModel
+    from models.empleados import EmpleadoModel
+
+    # ── Secciones ──
     if SeccionModel.select().count() == 0:
         secciones = [
-            ("Astronomia",   "🔭"), ("Aeronautica",  "✈️"),
-            ("Geologia",     "🪨"), ("Biologia",     "🧬"),
-            ("Fisica",       "⚡"), ("Quimica",      "⚗️"),
+            ("Astronomia", "🔭"), ("Aeronautica", "✈️"),
+            ("Geologia", "🪨"), ("Biologia", "🧬"),
+            ("Fisica", "⚡"), ("Quimica", "⚗️"),
             ("Oceanografia", "🌊"), ("Neurociencia", "🧠"),
         ]
-        for nombre, emoji in secciones:
-            SeccionModel.create(nombre=nombre, emoji=emoji)
-        log.info("Seed: 8 secciones científicas inicializadas.")
+        for n, e in secciones:
+            SeccionModel.create(nombre=n, emoji=e)
+        log.info("Seed: Secciones inicializadas")
 
-    if AtraccionModel.select().count() == 0:
-        atracciones = [
-            ("Lanzadera Estelar",    "simulador",   1,   8, 12,  8.0),
-            ("Tunel del Big Bang",   "interactiva", 1,  40,  8,  4.0),
-            ("Planetario Digital",   "simulador",   1, 120, 30,  5.0),
-            ("Simulador de Piloto",  "simulador",   2,   2, 15,  9.0),
-            ("Tunel de Viento",      "interactiva", 2,   4, 10,  3.0),
-            ("Viaje al Centro",      "mecanica",    3,  30, 18,  6.0),
-            ("Simulador Sismico",    "mecanica",    3,  12,  6,  4.0),
-            ("Biomas Vivientes",     "interactiva", 4,  60, 45,  5.0),
-            ("Montana ADN",          "extreme",     4,  16,  4,  7.0),
-            ("Sala del Rayo",        "interactiva", 5,  25, 10,  4.0),
-            ("La Montana Reaccion",  "extreme",     6,  16,  4,  7.0),
-            ("Submarino Profundo",   "simulador",   7,   8, 15,  9.0),
-            ("ROVs Programables",    "laboratorio", 7,   6, 20,  6.0),
-            ("Cerebro Transitable",  "interactiva", 8,  20, 25,  5.0),
-            ("Capsula Sueno Lucido", "simulador",   8,   1, 30, 12.0),
+    # ── Atracciones ──
+    atracciones = [
+        ("Lanzadera Estelar", "simulador", 1, 8, 12, 130, 8.0),
+        ("Tunel del Big Bang", "interactiva", 1, 40, 8, 0, 4.0),
+        ("Planetario Digital", "simulador", 1, 120, 30, 0, 5.0),
+        ("Simulador de Piloto", "simulador", 2, 2, 15, 130, 9.0),
+        ("Tunel de Viento Interactivo", "interactiva", 2, 4, 10, 120, 3.0),
+        ("Viaje al Centro de la Tierra", "mecanica", 3, 30, 18, 0, 6.0),
+        ("Simulador Sismico", "mecanica", 3, 12, 6, 120, 4.0),
+        ("Biomas Vivientes", "interactiva", 4, 60, 45, 0, 5.0),
+        ("Montana Rusa del ADN", "extreme", 4, 16, 4, 140, 7.0),
+        ("Sala del Rayo", "interactiva", 5, 25, 10, 110, 4.0),
+        ("La Montana de la Reaccion", "extreme", 6, 16, 4, 140, 7.5),
+        ("Submarino Profundo", "simulador", 7, 8, 15, 120, 9.0),
+        ("ROVs Programables", "laboratorio", 7, 6, 20, 0, 6.0),
+        ("Cerebro Gigante Transitable", "interactiva", 8, 20, 25, 0, 5.0),
+        ("Capsula de Sueno Lucido", "simulador", 8, 1, 30, 150, 12.0),
+    ]
+
+    nuevas_atracciones = 0
+    for n, t, s, c, d, h, p in atracciones:
+        _, created = AtraccionModel.get_or_create(
+            nombre=n,
+            defaults={
+                "tipo": t,
+                "seccion": s,
+                "capacidad_max": c,
+                "duracion_min": d,
+                "altura_minima_cm": h,
+                "precio_base": p,
+                "construida": False,
+                "activo": False,
+            },
+        )
+        if created:
+            nuevas_atracciones += 1
+    if nuevas_atracciones:
+        log.info(f"Seed: {nuevas_atracciones} atracciones añadidas")
+
+    # ── Inventario ──
+    productos = [
+        ("Comida Espacial", "Comida", 200, 20, 500, 5.0),
+        ("Bebida Isotonica Lab", "Comida", 220, 25, 550, 2.5),
+        ("Snack Proteico Orbital", "Comida", 180, 20, 450, 3.2),
+        ("Camiseta ScienceWorld", "Souvenir", 120, 20, 350, 9.5),
+        ("Newton Peluche", "Souvenir", 150, 15, 300, 10.0),
+        ("Kit ADN Junior", "Souvenir", 50, 10, 150, 8.0),
+        ("Poster Sistema Solar", "Souvenir", 160, 20, 400, 2.0),
+        ("Cristal Mineral", "Souvenir", 80, 10, 200, 3.0),
+        ("Pack Pilas Sensores", "Repuesto", 100, 20, 300, 4.0),
+        ("Lubricante Industrial", "Repuesto", 70, 15, 220, 6.5),
+        ("Fuse de Seguridad", "Repuesto", 200, 40, 500, 1.0),
+        ("Panel Holografico", "Repuesto", 20, 5, 60, 45.0),
+    ]
+
+    nuevos_productos = 0
+    for n, c, s, min_s, max_s, p in productos:
+        _, created = InventarioModel.get_or_create(
+            nombre=n,
+            defaults={
+                "categoria": c,
+                "stock_actual": s,
+                "stock_minimo": min_s,
+                "stock_maximo": max_s,
+                "precio_compra": p,
+            },
+        )
+        if created:
+            nuevos_productos += 1
+    if nuevos_productos:
+        log.info(f"Seed: {nuevos_productos} productos de inventario añadidos")
+
+    # ── EMPLEADOS (POOL GLOBAL) ──
+    if EmpleadoModel.select().count() == 0:
+        pool = [
+            ("Dr. Aris Tóteles", "cientifico", 3500),
+            ("Ada Lovelace", "tecnico", 3200),
+            ("Nikola Tesla", "tecnico", 3000),
+            ("Marie Curie", "cientifico", 3800),
+            ("Carl Sagan", "divulgador", 2800),
+            ("Isaac Newton", "hosteleria", 2500),
+            ("Neil Armstrong", "tecnico", 3100),
+            ("Hedy Lamarr", "tecnico", 3300),
+            ("Jane Goodall", "cientifico", 3400),
+            ("Neil deGrasse", "divulgador", 2900),
         ]
-        for nombre, tipo, sec_id, cap, dur, precio in atracciones:
-            AtraccionModel.create(
-                nombre=nombre, tipo=tipo, seccion=sec_id,
-                capacidad_max=cap, duracion_min=dur, precio_base=precio,
+
+        for n, t, s in pool:
+            EmpleadoModel.create(
+                nombre=n,
+                tipo=t,
+                salario_mes=s,
+                activo=False
             )
-        log.info("Seed: 15 atracciones científicas inicializadas.")
 
-    if InventarioModel.select().count() == 0:
-        productos = [
-            ("Comida Espacial", "Comida",   200, 20, 500,  5.0),
-            ("Newton Peluche",  "Souvenir", 150, 15, 300, 10.0),
-            ("Kit ADN Junior",  "Souvenir",  50, 10, 150,  8.0),
-            ("Cristal Mineral", "Souvenir",  80, 10, 200,  3.0),
-        ]
-        for nombre, cat, stock, minimo, maximo, precio in productos:
-            InventarioModel.create(
-                nombre=nombre, categoria=cat,
-                stock_actual=stock, stock_minimo=minimo,
-                stock_maximo=maximo, precio_compra=precio,
-            )
-        log.info("Seed: Productos de inventario inicializados.")
+        log.info("Seed: Pool de empleados creado")
 
 
-# ── Sección G: Modos de juego ────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────
+# DIFICULTADES
+# ─────────────────────────────────────────────────────────────
 
-# G.1 — Configuración por dificultad (Modo Campaña)
-DIFICULTAD_CONFIG: dict[str, dict] = {
+DIFICULTAD_CONFIG = {
     "facil": {
-        "dinero": 750_000, "reputacion": 50,
-        "atracciones": 5,  "empleados": 8,
-        "umbral_quiebra": 150_000,
-        "objetivo_rep": 80, "objetivo_dinero": 1_000_000,
-        "prob_eventos_negativo": 0.5,
+        "dinero": 750000,
+        "reputacion": 50,
+        "atracciones": 5,
+        "empleados": 8,
     },
     "normal": {
-        "dinero": 500_000, "reputacion": 35,
-        "atracciones": 3,  "empleados": 4,
-        "umbral_quiebra": 250_000,
-        "objetivo_rep": 85, "objetivo_dinero": 2_000_000,
-        "prob_eventos_negativo": 1.0,
+        "dinero": 500000,
+        "reputacion": 35,
+        "atracciones": 3,
+        "empleados": 4,
     },
     "dificil": {
-        "dinero": 250_000, "reputacion": 20,
-        "atracciones": 1,  "empleados": 2,
-        "umbral_quiebra": 400_000,
-        "objetivo_rep": 90, "objetivo_dinero": 3_000_000,
-        "prob_eventos_negativo": 1.25,
+        "dinero": 250000,
+        "reputacion": 20,
+        "atracciones": 1,
+        "empleados": 2,
     },
     "pesadilla": {
-        "dinero": 100_000, "reputacion": 10,
-        "atracciones": 0,  "empleados": 0,
-        "umbral_quiebra": 550_000,
-        "objetivo_rep": 95, "objetivo_dinero": 5_000_000,
-        "prob_eventos_negativo": 1.5,
+        "dinero": 100000,
+        "reputacion": 10,
+        "atracciones": 0,
+        "empleados": 0,
     },
 }
 
 
+# ─────────────────────────────────────────────────────────────
+# MODO CAMPAÑA
+# ─────────────────────────────────────────────────────────────
+
 def seed_modo_campana(parque_id: int, dificultad: str = "normal") -> None:
-    """
-    G.1: configura el parque para Modo Campaña con la dificultad indicada.
-    Llamar ANTES de MotorSimulacion().cargar_partida().
-    """
-    from models.parque      import ParqueModel
+    from models.parque import ParqueModel
     from models.atracciones import AtraccionModel
-    from models.empleados   import EmpleadoModel
-    from models.inventario  import InventarioModel
+    from models.empleados import EmpleadoModel
 
     cfg = DIFICULTAD_CONFIG.get(dificultad, DIFICULTAD_CONFIG["normal"])
 
     with db.atomic():
         parque = ParqueModel.get_by_id(parque_id)
-        parque.dinero     = cfg["dinero"]
+        parque.dinero = cfg["dinero"]
         parque.reputacion = cfg["reputacion"]
-        parque.dia_actual  = 1
+        parque.dia_actual = 1
         parque.hora_actual = 8
         parque.save()
 
+        # Atracciones
         for i, atr in enumerate(AtraccionModel.select()):
-            atr.activo          = (i < cfg["atracciones"])
+            atr.construida = i < cfg["atracciones"]
+            atr.activo = i < cfg["atracciones"]
             atr.en_mantenimiento = False
-            atr.integridad      = 100.0
+            atr.integridad = 100.0
+            atr.en_construccion = False
+            atr.dias_construccion_restantes = 0
             atr.save()
 
-        for i, emp in enumerate(EmpleadoModel.select()):
-            emp.activo = (i < cfg["empleados"])
+        # EMPLEADOS: asegurar plantilla inicial exacta según dificultad
+        EmpleadoModel.update(activo=False).execute()
+
+        empleados = (
+            EmpleadoModel
+            .select()
+            .order_by(EmpleadoModel.id)
+            .limit(cfg["empleados"])
+        )
+
+        for i, emp in enumerate(empleados):
+            emp.activo = True
+            # Asignación mínima para que empiecen operativos por sección
+            emp.seccion = (i % 8) + 1
             emp.save()
 
-        stock_pct = {
-            "facil": 0.80, "normal": 0.50,
-            "dificil": 0.25, "pesadilla": 0.0,
-        }.get(dificultad, 0.50)
-
-        for inv in InventarioModel.select():
-            inv.stock_actual = round(inv.stock_maximo * stock_pct)
-            inv.save()
-
     log.info(
-        f"Seed Modo Campaña [{dificultad.upper()}]: "
-        f"dinero={cfg['dinero']:,}€, rep={cfg['reputacion']}, "
-        f"atracciones={cfg['atracciones']}, empleados={cfg['empleados']}"
+        f"Dificultad {dificultad.upper()}: "
+        f"{cfg['empleados']} empleados activos"
     )
 
+
+# ─────────────────────────────────────────────────────────────
+# MODO EXTREMO
+# ─────────────────────────────────────────────────────────────
 
 def seed_modo_extremo(parque_id: int) -> None:
-    """
-    G.2: configura el parque para Modo Extremo (rescate en bancarrota).
-    """
-    import random
-    from models.parque      import ParqueModel
+    from models.parque import ParqueModel
     from models.atracciones import AtraccionModel
-    from models.empleados   import EmpleadoModel
-    from models.inventario  import InventarioModel
+    from models.empleados import EmpleadoModel
 
     with db.atomic():
-        parque = ParqueModel.get_by_id(parque_id)
-        parque.dinero     = -180_000
-        parque.reputacion = 8
-        parque.dia_actual  = 1
-        parque.hora_actual = 8
-        parque.save()
+        p = ParqueModel.get_by_id(parque_id)
+        p.dinero = -180000
+        p.reputacion = 8
+        p.save()
 
-        atracciones = list(AtraccionModel.select())
-        for i, atr in enumerate(atracciones):
-            if i < 3:
-                atr.activo           = True
-                atr.en_mantenimiento = False
-                atr.integridad       = 100.0
-            else:
-                atr.activo           = True
-                atr.en_mantenimiento = True
-                atr.integridad       = random.uniform(5.0, 30.0)
-            atr.save()
+        AtraccionModel.update(
+            construida=True,
+            activo=True,
+            integridad=25,
+            en_mantenimiento=True,
+            en_construccion=False,
+            dias_construccion_restantes=0,
+        ).execute()
 
-        for i, emp in enumerate(EmpleadoModel.select()):
-            emp.activo = (i < 3)
-            emp.save()
+        EmpleadoModel.update(activo=False).execute()
 
-        for inv in InventarioModel.select():
-            inv.stock_actual = 0
-            inv.save()
+        for e in EmpleadoModel.select().limit(3):
+            e.activo = True
+            e.save()
 
-    log.info(
-        "Seed Modo Extremo: dinero=-180.000€, rep=8, "
-        "12/15 atracciones averiadas, stock=0"
-    )
+    log.info("Seed modo extremo aplicado")

@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QProgressBar, QListWidget
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QProgressBar, QListWidget, QFrame
 from PySide6.QtCore import Qt
 import random
 
@@ -7,19 +7,30 @@ class VisitantesView(QWidget):
         super().__init__()
         layout = QVBoxLayout(self)
 
-        self.lbl_count = QLabel("VISITANTES EN EL PARQUE: 0")
-        self.lbl_count.setStyleSheet("font-size: 18px; font-weight: bold; color: #00d1ff;")
-        layout.addWidget(self.lbl_count)
+        title = QLabel("[VIS] CENTRO DE VISITANTES")
+        title.setStyleSheet(
+            "color:#00ff9f; font-size:13px; font-weight:900; font-family:'Courier New'; letter-spacing:1px;"
+        )
+        layout.addWidget(title)
 
-        layout.addWidget(QLabel("SATISFACCIÓN MEDIA:"))
+        card = QFrame()
+        card.setObjectName("SectionCard")
+        card_l = QVBoxLayout(card)
+
+        self.lbl_count = QLabel("VISITANTES EN EL PARQUE: 0")
+        self.lbl_count.setStyleSheet("font-size: 12px; font-weight: 900; color: #a8ffd9;")
+        card_l.addWidget(self.lbl_count)
+
+        card_l.addWidget(QLabel("[AVG] SATISFACCION MEDIA:"))
         self.bar_sat = QProgressBar()
         self.bar_sat.setRange(0, 100)
         self.bar_sat.setValue(75)
-        layout.addWidget(self.bar_sat)
+        card_l.addWidget(self.bar_sat)
+        layout.addWidget(card)
 
-        layout.addWidget(QLabel("COMENTARIOS DE VISITANTES:"))
+        layout.addWidget(QLabel("[FEED] COMENTARIOS DE VISITANTES:"))
         self.list_feedback = QListWidget()
-        self.list_feedback.setStyleSheet("background-color: #252538; color: #a2a2b5; font-style: italic;")
+        self.list_feedback.setStyleSheet("font-style: italic;")
         layout.addWidget(self.list_feedback)
 
         self.feedbacks = [
@@ -34,7 +45,9 @@ class VisitantesView(QWidget):
 
     def refresh(self):
         from models.parque import ParqueModel
-        p = ParqueModel.get_by_id(1)
+        from core.motor import MotorSimulacion
+
+        p = ParqueModel.get_by_id(MotorSimulacion()._parque_id)
         
         # Simulación de datos de visitantes basada en reputación
         count = int(p.reputacion * random.uniform(5, 12))

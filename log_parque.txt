@@ -1942,3 +1942,736 @@
 2026-04-26 17:22:16 | INFO     | motor                | Tick completado. Ingresos: +$2,164.80. Día 1 Hora 18
 2026-04-26 17:22:16 | INFO     | main_window          | Velocidad de simulación: ⏸  PAUSA (0ms/tick)
 2026-04-26 17:22:22 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-27 11:47:45 | INFO     | db                   | Migración: columna 'construida' añadida a 'atracciones'.
+2026-04-27 11:51:28 | INFO     | db                   | Seed Modo Campaña [PESADILLA]: dinero=100,000€, rep=10, atracciones=0, empleados=0
+2026-04-27 11:51:28 | INFO     | motor                | Motor: Partida «luis» cargada (Parque ID=4)
+2026-04-27 11:51:29 | INFO     | main_window          | MainWindow inicializada correctamente.
+2026-04-27 11:52:13 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-27 11:52:25 | INFO     | main_window          | Navegación: Cambiando a vista 2.
+2026-04-27 11:52:50 | INFO     | main_window          | Navegación: Cambiando a vista 3.
+2026-04-27 11:53:03 | INFO     | main_window          | Navegación: Cambiando a vista 4.
+2026-04-27 11:53:07 | INFO     | main_window          | Velocidad de simulación: ▶  NORMAL (1000ms/tick)
+2026-04-27 11:53:07 | INFO     | main_window          | Velocidad de simulación: ⚡  RÁPIDO (400ms/tick)
+2026-04-27 11:53:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:08 | INFO     | motor                | Tick completado. Ingresos: +$206.80. Día 1 Hora 09
+2026-04-27 11:53:08 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:08 | INFO     | motor                | Tick completado. Ingresos: +$339.90. Día 1 Hora 10
+2026-04-27 11:53:09 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:09 | INFO     | motor                | Tick completado. Ingresos: +$354.20. Día 1 Hora 11
+2026-04-27 11:53:09 | INFO     | motor                | Tick completado. Ingresos: +$320.10. Día 1 Hora 12
+2026-04-27 11:53:09 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:09 | INFO     | motor                | Tick completado. Ingresos: +$361.90. Día 1 Hora 13
+2026-04-27 11:53:10 | INFO     | motor                | Tick completado. Ingresos: +$259.60. Día 1 Hora 14
+2026-04-27 11:53:10 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:10 | INFO     | motor                | Tick completado. Ingresos: +$350.90. Día 1 Hora 15
+2026-04-27 11:53:11 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:11 | INFO     | motor                | Tick completado. Ingresos: +$315.70. Día 1 Hora 16
+2026-04-27 11:53:11 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:11 | INFO     | motor                | Tick completado. Ingresos: +$339.90. Día 1 Hora 17
+2026-04-27 11:53:11 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:11 | INFO     | motor                | Tick completado. Ingresos: +$322.30. Día 1 Hora 18
+2026-04-27 11:53:12 | INFO     | motor                | Tick completado. Ingresos: +$357.50. Día 1 Hora 19
+2026-04-27 11:53:12 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:12 | INFO     | motor                | Tick completado. Ingresos: +$162.80. Día 1 Hora 20
+2026-04-27 11:53:13 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:13 | INFO     | motor                | Tick completado. Ingresos: +$196.90. Día 1 Hora 21
+2026-04-27 11:53:13 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:13 | INFO     | motor                | Tick completado. Ingresos: +$0.00. Día 1 Hora 22
+2026-04-27 11:53:13 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:14 | INFO     | motor                | Tick completado. Ingresos: +$0.00. Día 1 Hora 23
+2026-04-27 11:53:14 | INFO     | motor                | NÓMINAS PAGADAS: -$83.33 (1 empleados)
+2026-04-27 11:53:14 | INFO     | motor                | Tick completado. Ingresos: +$0.00. Día 2 Hora 00
+2026-04-27 11:53:14 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:14 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:14 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 2 Hora 01
+2026-04-27 11:53:15 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:15 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:15 | INFO     | motor                | Tick completado. Ingresos: +$13.20. Día 2 Hora 02
+2026-04-27 11:53:15 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:15 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:15 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:15 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 2 Hora 03
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:16 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 2 Hora 04
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:16 | INFO     | motor                | Tick completado. Ingresos: +$13.20. Día 2 Hora 05
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:16 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:16 | INFO     | motor                | Tick completado. Ingresos: +$13.20. Día 2 Hora 06
+2026-04-27 11:53:17 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:17 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:17 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:17 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 2 Hora 07
+2026-04-27 11:53:17 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:17 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:17 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:17 | INFO     | motor                | Tick completado. Ingresos: +$684.20. Día 2 Hora 08
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:18 | INFO     | motor                | Tick completado. Ingresos: +$401.50. Día 2 Hora 09
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:18 | INFO     | motor                | Tick completado. Ingresos: +$958.10. Día 2 Hora 10
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:18 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:18 | INFO     | motor                | Tick completado. Ingresos: +$1,318.90. Día 2 Hora 11
+2026-04-27 11:53:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:19 | INFO     | motor                | Tick completado. Ingresos: +$1,475.10. Día 2 Hora 12
+2026-04-27 11:53:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:19 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:19 | INFO     | motor                | Tick completado. Ingresos: +$861.30. Día 2 Hora 13
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:20 | INFO     | motor                | Tick completado. Ingresos: +$897.60. Día 2 Hora 14
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:20 | INFO     | motor                | Tick completado. Ingresos: +$733.70. Día 2 Hora 15
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:20 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:20 | INFO     | motor                | Tick completado. Ingresos: +$850.30. Día 2 Hora 16
+2026-04-27 11:53:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:21 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:21 | INFO     | motor                | Tick completado. Ingresos: +$954.80. Día 2 Hora 17
+2026-04-27 11:53:21 | INFO     | main_window          | Velocidad de simulación: ⏸  PAUSA (0ms/tick)
+2026-04-27 11:53:30 | INFO     | main_window          | Navegación: Cambiando a vista 5.
+2026-04-27 11:53:39 | INFO     | main_window          | Navegación: Cambiando a vista 0.
+2026-04-27 11:53:42 | INFO     | main_window          | Navegación: Cambiando a vista 1.
+2026-04-27 11:53:47 | INFO     | main_window          | Velocidad de simulación: 🚀  TURBO (120ms/tick)
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:47 | INFO     | motor                | Tick completado. Ingresos: +$785.40. Día 2 Hora 18
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:47 | INFO     | motor                | Tick completado. Ingresos: +$775.50. Día 2 Hora 19
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:47 | INFO     | motor                | Tick completado. Ingresos: +$532.40. Día 2 Hora 20
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:47 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:47 | INFO     | motor                | Tick completado. Ingresos: +$601.70. Día 2 Hora 21
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$19.80. Día 2 Hora 22
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 2 Hora 23
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | INFO     | motor                | NÓMINAS PAGADAS: -$83.33 (1 empleados)
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$19.80. Día 3 Hora 00
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$35.20. Día 3 Hora 01
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$59.40. Día 3 Hora 02
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$49.50. Día 3 Hora 03
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$33.00. Día 3 Hora 04
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:48 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:48 | INFO     | motor                | Tick completado. Ingresos: +$49.50. Día 3 Hora 05
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 3 Hora 06
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$70.40. Día 3 Hora 07
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$849.20. Día 3 Hora 08
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$862.40. Día 3 Hora 09
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$1,640.10. Día 3 Hora 10
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$1,212.20. Día 3 Hora 11
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$1,541.10. Día 3 Hora 12
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:49 | INFO     | motor                | Tick completado. Ingresos: +$1,016.40. Día 3 Hora 13
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$1,509.20. Día 3 Hora 14
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$1,596.10. Día 3 Hora 15
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$1,752.30. Día 3 Hora 16
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$1,141.80. Día 3 Hora 17
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$1,701.70. Día 3 Hora 18
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$1,490.50. Día 3 Hora 19
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$663.30. Día 3 Hora 20
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:50 | INFO     | motor                | Tick completado. Ingresos: +$665.50. Día 3 Hora 21
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$49.50. Día 3 Hora 22
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$29.70. Día 3 Hora 23
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | INFO     | motor                | NÓMINAS PAGADAS: -$83.33 (1 empleados)
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$33.00. Día 4 Hora 00
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$48.40. Día 4 Hora 01
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$106.70. Día 4 Hora 02
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$68.20. Día 4 Hora 03
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$79.20. Día 4 Hora 04
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:51 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:51 | INFO     | motor                | Tick completado. Ingresos: +$59.40. Día 4 Hora 05
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$72.60. Día 4 Hora 06
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$55.00. Día 4 Hora 07
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$1,384.90. Día 4 Hora 08
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$1,245.20. Día 4 Hora 09
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$2,057.00. Día 4 Hora 10
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$1,469.60. Día 4 Hora 11
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$1,749.00. Día 4 Hora 12
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:52 | INFO     | motor                | Tick completado. Ingresos: +$1,547.70. Día 4 Hora 13
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$1,545.50. Día 4 Hora 14
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$1,994.30. Día 4 Hora 15
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$1,672.00. Día 4 Hora 16
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$1,508.10. Día 4 Hora 17
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$1,534.50. Día 4 Hora 18
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$1,746.80. Día 4 Hora 19
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$782.10. Día 4 Hora 20
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:53 | INFO     | motor                | Tick completado. Ingresos: +$771.10. Día 4 Hora 21
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$79.20. Día 4 Hora 22
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$49.50. Día 4 Hora 23
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:54 | INFO     | motor                | NÓMINAS PAGADAS: -$83.33 (1 empleados)
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$55.00. Día 5 Hora 00
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$33.00. Día 5 Hora 01
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$69.30. Día 5 Hora 02
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$148.50. Día 5 Hora 03
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$69.30. Día 5 Hora 04
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:54 | INFO     | motor                | Tick completado. Ingresos: +$72.60. Día 5 Hora 05
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$68.20. Día 5 Hora 06
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$78.10. Día 5 Hora 07
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$943.80. Día 5 Hora 08
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$893.20. Día 5 Hora 09
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$2,450.80. Día 5 Hora 10
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$2,064.70. Día 5 Hora 11
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$1,883.20. Día 5 Hora 12
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:55 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:55 | INFO     | motor                | Tick completado. Ingresos: +$1,868.90. Día 5 Hora 13
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$1,559.80. Día 5 Hora 14
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$1,890.90. Día 5 Hora 15
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$2,006.40. Día 5 Hora 16
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$1,763.30. Día 5 Hora 17
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$1,800.70. Día 5 Hora 18
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$1,773.20. Día 5 Hora 19
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$847.00. Día 5 Hora 20
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:56 | INFO     | motor                | Tick completado. Ingresos: +$1,395.90. Día 5 Hora 21
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$84.70. Día 5 Hora 22
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$72.60. Día 5 Hora 23
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | INFO     | motor                | NÓMINAS PAGADAS: -$83.33 (1 empleados)
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$49.50. Día 6 Hora 00
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$171.60. Día 6 Hora 01
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$79.20. Día 6 Hora 02
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$97.90. Día 6 Hora 03
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$64.90. Día 6 Hora 04
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:57 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:57 | INFO     | motor                | Tick completado. Ingresos: +$61.60. Día 6 Hora 05
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | INFO     | motor                | Tick completado. Ingresos: +$64.90. Día 6 Hora 06
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Cristal Mineral.
+2026-04-27 11:53:58 | INFO     | motor                | Tick completado. Ingresos: +$56.10. Día 6 Hora 07
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | INFO     | motor                | Tick completado. Ingresos: +$1,158.30. Día 6 Hora 08
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Kit ADN Junior.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | INFO     | motor                | Tick completado. Ingresos: +$1,177.00. Día 6 Hora 09
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Newton Peluche.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | WARNING  | motor                | VENTA PERDIDA: Sin stock de Comida Espacial.
+2026-04-27 11:53:58 | INFO     | motor                | Tick completado. Ingresos: +$2,433.20. Día 6 Hora 10
+2026-04-27 11:53:58 | INFO     | main_window          | Velocidad de simulación: ⏸  PAUSA (0ms/tick)
+2026-04-27 11:54:19 | INFO     | main_window          | Cerrando ScienceWorld Park. Guardando estado final...
+2026-04-28 17:44:44 | INFO     | db                   | Migración: columna 'construida' añadida a 'atracciones'.
+2026-04-28 17:44:44 | INFO     | db                   | Seed: 8 secciones científicas inicializadas.
+2026-04-28 17:44:44 | INFO     | db                   | Seed: 15 atracciones científicas inicializadas.
+2026-04-28 17:44:44 | INFO     | db                   | Seed: Productos de inventario inicializados.
+2026-04-28 17:44:44 | INFO     | db                   | Seed: Pool de especialistas creado en la reserva.
+2026-04-28 17:52:20 | INFO     | db                   | Migración: construida añadida a atracciones
+2026-04-28 17:52:20 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 17:52:20 | INFO     | db                   | Seed: Atracciones inicializadas
+2026-04-28 17:52:20 | INFO     | db                   | Seed: Inventario inicializado
+2026-04-28 17:52:20 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 17:52:43 | INFO     | db                   | Dificultad NORMAL: 4 empleados activos
+2026-04-28 17:52:43 | INFO     | motor                | Motor: Partida «lll» cargada (Parque ID=1)
+2026-04-28 18:09:14 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:10:20 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:10:51 | INFO     | db                   | Dificultad NORMAL: 4 empleados activos
+2026-04-28 18:10:51 | INFO     | motor                | Motor: Partida «llll» cargada (Parque ID=2)
+2026-04-28 18:15:15 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:15:15 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:15:15 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:15:15 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:15:15 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:17:18 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:17:18 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:17:18 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:17:18 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:17:18 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:38:44 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:38:44 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:38:44 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:38:44 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:38:44 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:43:34 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:43:34 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:43:34 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:43:34 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:43:34 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:46:20 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:46:20 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:46:20 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:46:20 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:46:20 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:49:10 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:49:10 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:49:10 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:49:10 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:49:10 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:51:15 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:51:15 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:51:15 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:51:15 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:51:15 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:53:29 | INFO     | motor                | Motor: Partida «PartidaTest» cargada (Parque ID=1)
+2026-04-28 18:54:55 | INFO     | db                   | Seed: Secciones inicializadas
+2026-04-28 18:54:55 | INFO     | db                   | Seed: 15 atracciones añadidas
+2026-04-28 18:54:55 | INFO     | db                   | Seed: 12 productos de inventario añadidos
+2026-04-28 18:54:55 | INFO     | db                   | Seed: Pool de empleados creado
+2026-04-28 18:55:26 | INFO     | db                   | Dificultad NORMAL: 4 empleados activos
+2026-04-28 18:55:26 | INFO     | motor                | Motor: Partida «lll» cargada (Parque ID=1)

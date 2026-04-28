@@ -1,9 +1,10 @@
 from PySide6.QtWidgets import (QWidget, QVBoxLayout, QPushButton, QTableWidget, 
                                QTableWidgetItem, QHeaderView, QDialog, QFormLayout, 
-                               QLineEdit, QComboBox, QSpinBox, QDialogButtonBox, QMessageBox)
+                               QLineEdit, QComboBox, QSpinBox, QDialogButtonBox, QMessageBox, QLabel)
 from models.empleados import EmpleadoModel
 from models.secciones import SeccionModel
 from models.parque import ParqueModel
+from core.motor import MotorSimulacion
 
 class ContratarDialog(QDialog):
     """Diálogo intuitivo para contratación de personal."""
@@ -52,7 +53,7 @@ class ContratarDialog(QDialog):
             return
         
         # Validar fondos (Coste de gestión de contratación: 1.000€)
-        parque = ParqueModel.get_by_id(1)
+        parque = ParqueModel.get_by_id(MotorSimulacion()._parque_id)
         if parque.dinero < 1000:
             QMessageBox.critical(self, "Fondos Insuficientes", 
                                  "No tienes fondos para cubrir los costes de gestión (1.000€).")
@@ -66,11 +67,16 @@ class PersonalView(QWidget):
         super().__init__()
         self.main_window = main_window
         layout = QVBoxLayout(self)
+
+        self.lbl_resumen = QLabel()
+        self.lbl_resumen.setStyleSheet(
+            "color:#00ff9f; font-weight:900; font-family:'Courier New'; letter-spacing:1px;"
+        )
+        layout.addWidget(self.lbl_resumen)
         
         self.tabla = QTableWidget(0, 4)
         self.tabla.setHorizontalHeaderLabels(["Nombre", "Especialidad", "Sección", "Salario"])
         self.tabla.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
-        self.tabla.setStyleSheet("background-color: #252538; color: white;")
         layout.addWidget(self.tabla)
         
         self.btn_contratar = QPushButton("CONTRATAR ESPECIALISTA")
@@ -83,7 +89,13 @@ class PersonalView(QWidget):
     def refresh(self):
         """Refresca la tabla de empleados."""
         self.tabla.setRowCount(0)
-        for emp in EmpleadoModel.select():
+        empleados = list(EmpleadoModel.select())
+        activos = [emp for emp in empleados if emp.activo]
+        self.lbl_resumen.setText(
+            f"PLANTILLA ACTIVA AL INICIO/ACTUAL: {len(activos)} · DISPONIBLES EN BOLSA: {len(empleados) - len(activos)}"
+        )
+
+        for emp in empleados:
             row = self.tabla.rowCount()
             self.tabla.insertRow(row)
             self.tabla.setItem(row, 0, QTableWidgetItem(emp.nombre))

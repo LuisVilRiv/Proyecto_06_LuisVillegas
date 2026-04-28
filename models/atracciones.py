@@ -13,9 +13,42 @@ class AtraccionModel(BaseModel):
     en_mantenimiento = BooleanField(default=False)
     activo = BooleanField(default=True)
     precio_base = FloatField(default=0.0)
+    construida = BooleanField(default=False)
+    en_construccion = BooleanField(default=False)
+    dias_construccion_restantes = IntegerField(default=0)
+    prioridad_construccion = CharField(default="media")
 
     class Meta:
         table_name = 'atracciones'
+
+    @property
+    def coste_construccion(self) -> float:
+        mult = {
+            "extreme": 1.5,
+            "simulador": 1.3,
+            "mecanica": 1.2,
+            "laboratorio": 1.1,
+            "interactiva": 1.0,
+        }.get(self.tipo, 1.0)
+        raw = (
+            self.precio_base * 12000
+            + self.capacidad_max * 800
+            + self.duracion_min * 500
+        ) * mult
+        return round(raw / 1000) * 1000
+
+    @property
+    def dias_construccion_estimados(self) -> int:
+        base = {
+            "interactiva": 2,
+            "laboratorio": 3,
+            "mecanica": 4,
+            "simulador": 5,
+            "extreme": 6,
+        }.get(self.tipo, 4)
+        if self.capacidad_max >= 80:
+            base += 1
+        return base
 
     def to_domain(self):
         import domain.atracciones as dom

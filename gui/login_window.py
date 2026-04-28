@@ -52,63 +52,64 @@ class LoginWindow(QWidget):
     def _aplicar_estilo(self):
         self.setStyleSheet("""
             QWidget {
-                background-color: #0a0d18;
-                color: #e2e8f0;
-                font-family: 'Segoe UI';
+                background-color: #070b12;
+                color: #d7ffe9;
+                font-family: 'Courier New';
             }
             QLineEdit {
-                background-color: #0f1423;
-                border: 1px solid #00d1ff;
-                padding: 10px;
-                border-radius: 5px;
-                color: #e2e8f0;
+                background-color: #0c1522;
+                border: 1px solid #1f3550;
+                padding: 9px;
+                border-radius: 2px;
+                color: #d7ffe9;
             }
             QPushButton {
-                background-color: rgba(0,209,255,0.12);
-                color: #00d1ff;
-                font-weight: bold;
-                padding: 12px;
-                border-radius: 5px;
-                border: 1px solid rgba(0,209,255,0.35);
+                background-color: #0f1b2b;
+                color: #00ff9f;
+                font-weight: 900;
+                padding: 10px;
+                border-radius: 2px;
+                border: 1px solid #00ff9f;
+                letter-spacing: 1px;
             }
-            QPushButton:hover { background-color: rgba(0,209,255,0.22); }
+            QPushButton:hover { background-color: #16334f; color: #7fffd4; }
             QPushButton:checked {
-                background-color: rgba(0,209,255,0.30);
-                border-color: #00d1ff;
+                background-color: #123323;
+                border-color: #7fffd4;
             }
             QPushButton#BtnSecundario {
-                background-color: transparent;
-                color: #4b5563;
-                border: 1px solid #1a1f2e;
+                background-color: #0b1320;
+                color: #8daeb2;
+                border: 1px solid #1f3550;
                 padding: 10px;
             }
             QPushButton#BtnSecundario:hover {
-                background-color: rgba(255,255,255,0.04);
-                color: #9ca3af;
-                border-color: #374151;
+                background-color: #15273c;
+                color: #a8ffd9;
+                border-color: #00ff9f;
             }
             QListWidget {
-                background-color: #0f1423;
-                border: 1px solid #1a1f2e;
-                color: #e2e8f0;
+                background-color: #0c1522;
+                border: 1px solid #1f3550;
+                color: #d7ffe9;
             }
-            QListWidget::item:selected { background: rgba(0,209,255,0.15); color: #00d1ff; }
+            QListWidget::item:selected { background: #173451; color: #a8ffd9; }
             QComboBox {
-                background-color: #0f1423;
-                border: 1px solid #2d3748;
+                background-color: #0c1522;
+                border: 1px solid #1f3550;
                 padding: 8px;
-                border-radius: 5px;
-                color: #e2e8f0;
+                border-radius: 2px;
+                color: #d7ffe9;
             }
             QFrame#ModeCard {
-                background: #0f1423;
-                border: 1px solid #1a1f2e;
-                border-radius: 8px;
+                background: #0c1522;
+                border: 1px solid #1f3550;
+                border-radius: 2px;
                 padding: 8px;
             }
-            QFrame#ModeCard:hover { border-color: rgba(0,209,255,0.4); }
+            QFrame#ModeCard:hover { border-color: #00ff9f; }
             QFrame#Separador {
-                background: #1a1f2e;
+                background: #1f3550;
                 max-height: 1px;
                 border: none;
             }

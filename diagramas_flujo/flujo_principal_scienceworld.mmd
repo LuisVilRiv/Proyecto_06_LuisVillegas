@@ -1,0 +1,44 @@
+flowchart TD
+    A[Inicio App] --> B[LoginWindow]
+    B -->|Login válido| C[Seleccionar/Crear Partida]
+    B -->|Login inválido| B
+    C --> D[seed por modo y dificultad]
+    D --> E[MotorSimulacion.cargar_partida]
+    E --> F[MainWindow + Sidebar]
+
+    F --> G[Dashboard]
+    F --> H[Atracciones]
+    F --> I[Visitantes]
+    F --> J[Personal]
+    F --> K[Logistica]
+    F --> L[Finanzas]
+
+    F --> M[Tick Manual/Automático]
+    M --> N[Procesar visitantes + tickets]
+    M --> O[Consumir inventario]
+    M --> P[Degradar atracciones]
+    M --> Q{Fin de día}
+
+    Q -->|Sí| R[Procesar construcciones]
+    R --> S[Aplicar penalización sobrecarga]
+    S --> T[Evaluar eventos]
+    T --> U[Pagar nóminas]
+    U --> V[Actualizar reputación]
+    V --> W[Guardar parque]
+    Q -->|No| W
+    W --> X[Refrescar vista activa]
+
+    H --> H1[Operativas: detalles/reparar]
+    H --> H2[Cartera: iniciar proyecto]
+    H --> H3[Obras: reasignar técnicos]
+    H2 --> H4[Validar fase + personal + fondos]
+    H4 --> H5[Guardar obra con prioridad]
+    H3 --> H6[Reducir días de obra]
+
+    K --> K1[Pedidos inventario]
+    K1 --> K2[Comprar stock (transacción)]
+    K2 --> X
+
+    J --> J1[Contratar especialista]
+    J1 --> J2[Validar fondos]
+    J2 --> X

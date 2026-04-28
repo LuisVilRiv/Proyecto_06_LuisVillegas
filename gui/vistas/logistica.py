@@ -24,7 +24,8 @@ class LogisticaView(QWidget):
 
         self.lbl_info = QLabel("CENTRO DE SUMINISTROS Y LOGÍSTICA")
         self.lbl_info.setStyleSheet(
-            "font-weight: bold; color: #00d1ff; font-size: 18px; margin-bottom: 10px;"
+            "font-weight: 900; color: #00ff9f; font-size: 13px; margin-bottom: 8px;"
+            "font-family: 'Courier New'; letter-spacing: 1px;"
         )
         layout.addWidget(self.lbl_info)
 
@@ -33,12 +34,6 @@ class LogisticaView(QWidget):
             ["Producto", "Stock Actual", "Capacidad Máx", "Precio Unidad", "Gestión"]
         )
         self.tabla.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
-        self.tabla.setStyleSheet(
-            "QTableWidget { background-color: #252538; color: white;"
-            " gridline-color: #2d2d44; border: 1px solid #2d2d44; }"
-            "QHeaderView::section { background-color: #161623; color: #a2a2b5;"
-            " padding: 10px; font-weight: bold; border: none; }"
-        )
         layout.addWidget(self.tabla)
 
         self.refresh()
@@ -76,17 +71,8 @@ class LogisticaView(QWidget):
 
             if item.stock_actual >= item.stock_maximo:
                 btn.setEnabled(False)
-                btn.setText("ALMACÉN LLENO")
-                btn.setStyleSheet(
-                    "background-color: #2d2d44; color: #a2a2b5;"
-                    " border-radius: 4px; padding: 8px;"
-                )
+                btn.setText("LLENO")
             else:
-                btn.setStyleSheet(
-                    "background-color: #2ecc71; color: white;"
-                    " font-weight: bold; border-radius: 4px;"
-                    " padding: 8px; border: none;"
-                )
                 # Capturamos el id en el closure para evitar referencia tardía
                 item_id = item.id
                 btn.clicked.connect(

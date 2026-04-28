@@ -69,10 +69,10 @@ class DashboardView(QWidget):
         left = QVBoxLayout()
         left.setSpacing(14)
 
-        lbl_estado = QLabel("ESTADO DEL PARQUE")
+        lbl_estado = QLabel("[OK] ESTADO DEL PARQUE")
         lbl_estado.setStyleSheet(
-            "color: #00d1ff; font-size: 14px; font-weight: 900;"
-            "letter-spacing: 3px;"
+            "color: #00ff9f; font-size: 13px; font-weight: 900;"
+            "letter-spacing: 2px; font-family: 'Courier New';"
         )
         left.addWidget(lbl_estado)
 
@@ -92,9 +92,10 @@ class DashboardView(QWidget):
         left.addWidget(card)
 
         # Resumen económico
-        lbl_eco = QLabel("RESUMEN ECONÓMICO")
+        lbl_eco = QLabel("[FIN] RESUMEN ECONÓMICO")
         lbl_eco.setStyleSheet(
-            "color: #4b5563; font-size: 10px; font-weight: 800; letter-spacing: 2px;"
+            "color: #79d2b5; font-size: 10px; font-weight: 800; letter-spacing: 1px;"
+            "font-family: 'Courier New';"
         )
         left.addWidget(lbl_eco)
 
@@ -131,10 +132,10 @@ class DashboardView(QWidget):
         right = QVBoxLayout()
         right.setSpacing(10)
 
-        lbl_hist = QLabel("HISTORIAL DE EVENTOS")
+        lbl_hist = QLabel("[LOG] HISTORIAL DE EVENTOS")
         lbl_hist.setStyleSheet(
-            "color: #00d1ff; font-size: 14px; font-weight: 900;"
-            "letter-spacing: 3px;"
+            "color: #00ff9f; font-size: 13px; font-weight: 900;"
+            "letter-spacing: 2px; font-family: 'Courier New';"
         )
         right.addWidget(lbl_hist)
 
